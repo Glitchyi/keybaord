@@ -1,36 +1,39 @@
 # keybaord
 
-A left-hand USB-C gaming keypad learning project. The current direction is 28 mechanical clicky keys, a custom switch PCB, and a 3D-printed enclosure, with a ₹4,000 total project ceiling.
+A wired 28-key gaming keypad and macro-pad learning project: deep navy shine-through caps, glossy black top, frosted illuminated base, a grid-aligned dial and rounded magnetic 4°/7° risers.
 
-The owner designs the PCB and enclosure. Development proceeds through explanations, small experiments, and reviews before fabrication.
+[Open the Anatomy homepage](https://glitchyi.github.io/keybaord/). It includes the interactive layout, native Blender previews, dimensioned engineering drawings and a dated INR parts list.
 
-## Start the visualization
+## Current delivery
 
-Requires Node.js 20.10 or newer. No package install is needed.
+Fit-v1 is a source-referenced dimensional study. Standard Kailh BOX Jade switches, one 2u Space, controller/remote USB boards and selected support parts share a millimetre specification. The case is nominally128.3 × 109.25 mm. Purchased parts use linked manufacturer drawings/CAD; custom fits and unverified dimensions are labelled provisional.
+
+The model does not establish physical fit, printability, magnet retention or optical diffusion. PCB routing, firmware, power design, automatic macro-sheet detection and manufacturing files remain future work. The macro sheet is a visual concept; browser profiles do not configure a device. EasyEDA and Fusion remain the intended PCB/enclosure learning tools.
+
+## Preview and checks
+
+Node.js22 recommended; no package installation is needed.
 
 ```sh
 npm run build
+npm test
+npm run audit
 npm start
 ```
 
-Open http://127.0.0.1:8766. Select keys, hold them down, switch to the top view, and experiment with three in-memory profile previews. The UI uses a monochrome shadcn-style layout; the keyboard is an isometric SVG built with the vendored Anatomy kit.
+Open `http://127.0.0.1:8766/keybaord/`. The generated `dist/` directory is the GitHub Pages artifact. Root `index.html` and `index-light.html` are also generated standalone previews. The website uses plain HTML/CSS/JavaScript and SVG with the vendored Anatomy kit.
 
-`index.html` and `index-light.html` are standalone and can also be opened directly. This is plain HTML, CSS and JavaScript, not a React/shadcn component implementation.
+## Project files
 
-## Scope
+- [Implementation plan](docs/implementation-plan.md): settled decisions, ownership and acceptance gates.
+- [Build brief](docs/brief.md): requirements and the later learning sequence.
+- [Shared assembly dimensions](spec/keypad.json), [parts/sources](spec/parts.json), [resolved specification](spec/resolved.json).
+- [Blender fit model](design/fit-v1/keypad-fit-v1.blend), build/render scripts and native verification reports under `design/fit-v1/`.
+- [Parts and BOM evidence](docs/parts-and-bom.md): dated 18 October 2026. Known purchase subtotal ₹1,353.30; remaining quotes, printing, PCB, shipping and other costs are excluded. This is not the final project cost.
+- [Verification record](docs/visual-verification.md): what was actually checked and what remains unknown.
+- `scripts/web/` and `scripts/engineering/`: interactive homepage and unique-part drawing generators.
+- `.github/workflows/pages.yml`: build, checks and Pages deployment on main.
+- `design/concepts/`: preserved earlier appearance studies, including the low-profile and older USB/riser concepts. They are historical references.
+- `vendor/anatomy/`: retained geometry helpers and their MIT license.
 
-- USB-C power and data, using a small controller module on the owner-designed PCB.
-- Mechanical clicky switches; fixed switch actuation, without rapid trigger.
-- Browser remapping and persistent onboard profiles are firmware goals. The visualization does not connect to a device or save anything to hardware.
-- One-switch-per-key matrix with anti-ghosting diodes; controller, pin assignment, firmware and components remain unselected.
-- Proposed 148 × 118 mm envelope and 19.05 mm pitch are layout references, not manufacturing dimensions. The thumb row and stabilizer need fit testing.
-
-## Project map
-
-- `scripts/build.mjs`: 72-part isometric geometry, interface and preview interactions.
-- `scripts/serve.mjs`: localhost-only preview server.
-- `docs/brief.md`: requirements, budget and next learning steps.
-- `docs/visual-verification.md`: scope of visual and interaction checks.
-- `vendor/anatomy/`: geometry and audit helpers, with their MIT license.
-
-Run `npm run audit` for the visualization geometry audit. This verifies drawing geometry, not PCB electronics, switch mechanics or manufacturability. Browser checks use the locally installed visualization tooling; the resulting screenshots are kept outside version control.
+For Blender regeneration, see the fit-model build scripts. The published site contains rendered previews, not native CAD download links. Review the concrete design and supplier quotes before ordering any parts or fabrication.

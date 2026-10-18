@@ -1,0 +1,364 @@
+{
+  "sourceSpecHash": "f3b01f1ca1fa3146d8b8418fa5d1a24e8a6f81fbbec2552a7b0e1b603857a1a7",
+  "geometryHash": "825c3c4eab495d1b896d61a9102a60e4e80efe6e2b686f5e14f7f0e5f52cc3b4",
+  "physicalFitValidated": false,
+  "checks": [
+    {
+      "id": "native_28_caps",
+      "status": "PASS",
+      "details": 28
+    },
+    {
+      "id": "native_28_nonempty_inlays",
+      "status": "PASS",
+      "details": 28
+    },
+    {
+      "id": "visible_emissive_roof_for_all_28_legends",
+      "status": "PASS",
+      "details": [
+        {
+          "key": "esc",
+          "visibleUpwardWhiteArea": 3.0230063359345536,
+          "roofFaces": 64
+        },
+        {
+          "key": "1",
+          "visibleUpwardWhiteArea": 0.6844637398608029,
+          "roofFaces": 32
+        },
+        {
+          "key": "2",
+          "visibleUpwardWhiteArea": 1.2091114388240385,
+          "roofFaces": 26
+        },
+        {
+          "key": "3",
+          "visibleUpwardWhiteArea": 1.1749000414386614,
+          "roofFaces": 46
+        },
+        {
+          "key": "4",
+          "visibleUpwardWhiteArea": 1.237001534216688,
+          "roofFaces": 47
+        },
+        {
+          "key": "tab",
+          "visibleUpwardWhiteArea": 3.364540686336113,
+          "roofFaces": 59
+        },
+        {
+          "key": "q",
+          "visibleUpwardWhiteArea": 2.068679255899042,
+          "roofFaces": 32
+        },
+        {
+          "key": "w",
+          "visibleUpwardWhiteArea": 2.2885490253102034,
+          "roofFaces": 37
+        },
+        {
+          "key": "e",
+          "visibleUpwardWhiteArea": 1.4649026193874306,
+          "roofFaces": 32
+        },
+        {
+          "key": "r",
+          "visibleUpwardWhiteArea": 1.6721278536715545,
+          "roofFaces": 47
+        },
+        {
+          "key": "t",
+          "visibleUpwardWhiteArea": 1.109831380425021,
+          "roofFaces": 38
+        },
+        {
+          "key": "caps",
+          "visibleUpwardWhiteArea": 3.173165627347771,
+          "roofFaces": 57
+        },
+        {
+          "key": "a",
+          "visibleUpwardWhiteArea": 1.538054009201005,
+          "roofFaces": 48
+        },
+        {
+          "key": "s",
+          "visibleUpwardWhiteArea": 1.2327040107063567,
+          "roofFaces": 48
+        },
+        {
+          "key": "d",
+          "visibleUpwardWhiteArea": 1.920110898092389,
+          "roofFaces": 32
+        },
+        {
+          "key": "f",
+          "visibleUpwardWhiteArea": 1.1639016293920577,
+          "roofFaces": 25
+        },
+        {
+          "key": "g",
+          "visibleUpwardWhiteArea": 1.7737627564783907,
+          "roofFaces": 33
+        },
+        {
+          "key": "shift",
+          "visibleUpwardWhiteArea": 3.1461504555709325,
+          "roofFaces": 70
+        },
+        {
+          "key": "z",
+          "visibleUpwardWhiteArea": 1.6309456455201143,
+          "roofFaces": 43
+        },
+        {
+          "key": "x",
+          "visibleUpwardWhiteArea": 1.5638420424656942,
+          "roofFaces": 32
+        },
+        {
+          "key": "c",
+          "visibleUpwardWhiteArea": 1.4334876677021384,
+          "roofFaces": 33
+        },
+        {
+          "key": "v",
+          "visibleUpwardWhiteArea": 1.195116922724992,
+          "roofFaces": 33
+        },
+        {
+          "key": "b",
+          "visibleUpwardWhiteArea": 1.8777178663294762,
+          "roofFaces": 39
+        },
+        {
+          "key": "ctrl",
+          "visibleUpwardWhiteArea": 2.401408459947561,
+          "roofFaces": 79
+        },
+        {
+          "key": "alt",
+          "visibleUpwardWhiteArea": 2.8811577754095197,
+          "roofFaces": 38
+        },
+        {
+          "key": "space",
+          "visibleUpwardWhiteArea": 0.6671795834554359,
+          "roofFaces": 17
+        },
+        {
+          "key": "fn",
+          "visibleUpwardWhiteArea": 2.0956190266879275,
+          "roofFaces": 39
+        },
+        {
+          "key": "5",
+          "visibleUpwardWhiteArea": 1.2362773083150387,
+          "roofFaces": 32
+        }
+      ]
+    },
+    {
+      "id": "source_controller_solids",
+      "status": "PASS",
+      "details": 58
+    },
+    {
+      "id": "source_adapter_solids",
+      "status": "PASS",
+      "details": 34
+    },
+    {
+      "id": "actual_cap_shell_sweep_all_28",
+      "status": "PASS",
+      "details": {
+        "travelSamples": [
+          0.0,
+          0.3,
+          0.6,
+          0.8999999999999999,
+          1.2,
+          1.5,
+          1.7999999999999998,
+          2.1,
+          2.4,
+          2.7,
+          3.0,
+          3.3,
+          3.5999999999999996,
+          3.8999999999999995
+        ],
+        "collisions": [],
+        "excludes": "provisional stem bosses and purchased BOX internals"
+      }
+    },
+    {
+      "id": "stems_remain_on_board_during_cap_removal",
+      "status": "PASS",
+      "details": true
+    },
+    {
+      "id": "screws_released_before_soldered_assembly_lift",
+      "status": "PASS",
+      "details": {
+        "screwLift": 50.0,
+        "boardLift": 0.0
+      }
+    },
+    {
+      "id": "ordinary_explosion_separates_cap_not_switch_stem",
+      "status": "PASS",
+      "details": {
+        "capLift": 42.0,
+        "solderedLift": 22.0
+      }
+    },
+    {
+      "id": "A_full_nominal_travel",
+      "status": "PASS",
+      "details": {
+        "cap": -3.5999999046325684,
+        "stem": -3.5999999046325684
+      }
+    },
+    {
+      "id": "Space_full_nominal_travel",
+      "status": "PASS",
+      "details": {
+        "cap": -3.5999999046325684
+      }
+    },
+    {
+      "id": "FPC_envelope_controller_clearance",
+      "status": "PASS",
+      "details": {
+        "triangleIntersections": [],
+        "contactEngagement": "UNKNOWN"
+      }
+    },
+    {
+      "id": "actual_USB_blind_pocket_wall",
+      "status": "PASS",
+      "details": {
+        "measuredRayThickness": 0.5230941772460938,
+        "minimum": 0.5
+      }
+    },
+    {
+      "id": "actual_USB_cradle_within_case",
+      "status": "PASS",
+      "details": {
+        "maximumY": 52.124996185302734,
+        "caseInteriorRearY": 52.125
+      }
+    },
+    {
+      "id": "actual_FPC_floor_clearance",
+      "status": "PASS",
+      "details": {
+        "mm": 2.1500015258789062
+      }
+    },
+    {
+      "id": "actual_FPC_route_length",
+      "status": "PASS",
+      "details": {
+        "meshCentrelineLength": 136.72629965951288,
+        "limit": 140
+      }
+    },
+    {
+      "id": "actual_controller_floor_gap",
+      "status": "PASS",
+      "details": {
+        "mm": 3.5
+      }
+    },
+    {
+      "id": "reference_USB_plug_ground_clearance_0_4_7",
+      "status": "PASS",
+      "details": [
+        {
+          "angle": "0",
+          "minimumConservativeGroundGap": 10.869522
+        },
+        {
+          "angle": "4",
+          "minimumConservativeGroundGap": 17.802194347669143
+        },
+        {
+          "angle": "7",
+          "minimumConservativeGroundGap": 22.961587921854345
+        }
+      ]
+    },
+    {
+      "id": "actual_nominal_foot_contacts_0",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "case foot (-55.150000000000006, -45.625)",
+          "minimumZ": 7.152557373046875e-07
+        },
+        {
+          "id": "case foot (55.150000000000006, -45.625)",
+          "minimumZ": 7.152557373046875e-07
+        },
+        {
+          "id": "case foot (-55.150000000000006, 45.625)",
+          "minimumZ": 7.152557373046875e-07
+        },
+        {
+          "id": "case foot (55.150000000000006, 45.625)",
+          "minimumZ": 7.152557373046875e-07
+        }
+      ]
+    },
+    {
+      "id": "actual_nominal_foot_contacts_4",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "case foot (-55.150000000000006, -45.625)",
+          "minimumZ": 0.0004940219223499298
+        },
+        {
+          "id": "case foot (55.150000000000006, -45.625)",
+          "minimumZ": 0.0004940219223499298
+        },
+        {
+          "id": "riser foot (4, -42)",
+          "minimumZ": -1.1920928955078125e-06
+        },
+        {
+          "id": "riser foot (4, 42)",
+          "minimumZ": -1.1920928955078125e-06
+        }
+      ]
+    },
+    {
+      "id": "actual_nominal_foot_contacts_7",
+      "status": "PASS",
+      "details": [
+        {
+          "id": "case foot (-55.150000000000006, -45.625)",
+          "minimumZ": 0.0033507682383060455
+        },
+        {
+          "id": "case foot (55.150000000000006, -45.625)",
+          "minimumZ": 0.0033507682383060455
+        },
+        {
+          "id": "riser foot (7, -42)",
+          "minimumZ": 4.0531158447265625e-06
+        },
+        {
+          "id": "riser foot (7, 42)",
+          "minimumZ": 4.0531158447265625e-06
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

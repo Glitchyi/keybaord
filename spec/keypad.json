@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "revision": "fit-v1",
+  "units": "mm",
+  "status": "drawings-based; not physically validated",
+  "coordinateSystem": {
+    "x": "right",
+    "y": "rear",
+    "z": "up",
+    "origin": "grid centre in XY; mounting plate top in Z"
+  },
+  "layout": {
+    "columns": 6,
+    "rows": 5,
+    "pitch": 19.05,
+    "keys": [
+      {
+        "id": "esc",
+        "label": "Esc",
+        "row": 0,
+        "column": 0,
+        "units": 1
+      },
+      {
+        "id": "1",
+        "label": "1",
+        "row": 0,
+        "column": 1,
+        "units": 1
+      },
+      {
+        "id": "2",
+        "label": "2",
+        "row": 0,
+        "column": 2,
+        "units": 1
+      },
+      {
+        "id": "3",
+        "label": "3",
+        "row": 0,
+        "column": 3,
+        "units": 1
+      },
+      {
+        "id": "4",
+        "label": "4",
+        "row": 0,
+        "column": 4,
+        "units": 1
+      },
+      {
+        "id": "tab",
+        "label": "Tab",
+        "row": 1,
+        "column": 0,
+        "units": 1
+      },
+      {
+        "id": "q",
+        "label": "Q",
+        "row": 1,
+        "column": 1,
+        "units": 1
+      },
+      {
+        "id": "w",
+        "label": "W",
+        "row": 1,
+        "column": 2,
+        "units": 1
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "row": 1,
+        "column": 3,
+        "units": 1
+      },
+      {
+        "id": "r",
+        "label": "R",
+        "row": 1,
+        "column": 4,
+        "units": 1
+      },
+      {
+        "id": "t",
+        "label": "T",
+        "row": 1,
+        "column": 5,
+        "units": 1
+      },
+      {
+        "id": "caps",
+        "label": "Caps",
+        "row": 2,
+        "column": 0,
+        "units": 1
+      },
+      {
+        "id": "a",
+        "label": "A",
+        "row": 2,
+        "column": 1,
+        "units": 1
+      },
+      {
+        "id": "s",
+        "label": "S",
+        "row": 2,
+        "column": 2,
+        "units": 1
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "row": 2,
+        "column": 3,
+        "units": 1
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "row": 2,
+        "column": 4,
+        "units": 1
+      },
+      {
+        "id": "g",
+        "label": "G",
+        "row": 2,
+        "column": 5,
+        "units": 1
+      },
+      {
+        "id": "shift",
+        "label": "Shift",
+        "row": 3,
+        "column": 0,
+        "units": 1
+      },
+      {
+        "id": "z",
+        "label": "Z",
+        "row": 3,
+        "column": 1,
+        "units": 1
+      },
+      {
+        "id": "x",
+        "label": "X",
+        "row": 3,
+        "column": 2,
+        "units": 1
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "row": 3,
+        "column": 3,
+        "units": 1
+      },
+      {
+        "id": "v",
+        "label": "V",
+        "row": 3,
+        "column": 4,
+        "units": 1
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "row": 3,
+        "column": 5,
+        "units": 1
+      },
+      {
+        "id": "ctrl",
+        "label": "Ctrl",
+        "row": 4,
+        "column": 0,
+        "units": 1
+      },
+      {
+        "id": "alt",
+        "label": "Alt",
+        "row": 4,
+        "column": 1,
+        "units": 1
+      },
+      {
+        "id": "space",
+        "label": "Space",
+        "row": 4,
+        "column": 2,
+        "units": 2
+      },
+      {
+        "id": "fn",
+        "label": "Fn",
+        "row": 4,
+        "column": 4,
+        "units": 1
+      },
+      {
+        "id": "5",
+        "label": "5",
+        "row": 4,
+        "column": 5,
+        "units": 1
+      }
+    ],
+    "encoder": {
+      "id": "dial",
+      "row": 0,
+      "column": 5
+    }
+  },
+  "datums": {
+    "plateTop": 0,
+    "plateBottom": -1.5,
+    "pcbTop": -5,
+    "pcbBottom": -6.5,
+    "caseSeam": -1.5,
+    "caseBottom": -23
+  },
+  "custom": {
+    "plate": {
+      "width": 128.3,
+      "depth": 109.25,
+      "thickness": 1.5,
+      "cornerRadius": 3.5,
+      "switchOpening": 14,
+      "openingTolerance": 0.05,
+      "openingRadiusMax": 0.3,
+      "encoderOpening": [
+        14.4,
+        14.4
+      ],
+      "status": "sourced opening; custom nominal outline and encoder clearance"
+    },
+    "pcb": {
+      "width": 120.3,
+      "depth": 101.25,
+      "thickness": 1.5,
+      "status": "nominal unrouted carrier; source-aligned switch/stabilizer mounting only"
+    },
+    "keycap_1u": {
+      "width": 18,
+      "depth": 18,
+      "crownWidth": 17.6,
+      "crownDepth": 17.6,
+      "bottomZ": 4.4,
+      "crownTopZ": 12.2,
+      "dishDepth": 0.6,
+      "minInnerRoofZ": 10.6,
+      "wall": 0.7,
+      "cornerRadius": 1.5,
+      "stemSocket": {
+        "crossLength": 4.1,
+        "crossWidth": 1.3,
+        "depth": 3.2,
+        "ceilingZ": 10,
+        "bossOuter": 5.6,
+        "status": "provisional custom printed mating fit; not sample-tested"
+      },
+      "status": "custom nominal; printability and stem retention unvalidated"
+    },
+    "keycap_2u": {
+      "width": 37.05,
+      "depth": 18,
+      "crownWidth": 36.65,
+      "crownDepth": 17.6,
+      "bottomZ": 4.4,
+      "crownTopZ": 12.2,
+      "dishDepth": 0.6,
+      "minInnerRoofZ": 10.6,
+      "wall": 0.7,
+      "cornerRadius": 1.5,
+      "stabilizerCenters": 23.8,
+      "status": "custom nominal with source-based stabilizer centres",
+      "stemSocket": {
+        "crossLength": 4.1,
+        "crossWidth": 1.3,
+        "depth": 3.2,
+        "ceilingZ": 10,
+        "bossOuter": 5.6,
+        "status": "provisional custom printed mating fit; not sample-tested"
+      }
+    },
+    "knob": {
+      "diameter": 16,
+      "height": 10,
+      "bottomZ": 8.5,
+      "topZ": 18.5,
+      "shaftBore": 6.15,
+      "shaftFlat": 4.65,
+      "shaftBoreStatus": "provisional printed fit allowance"
+    },
+    "case": {
+      "width": 128.3,
+      "depth": 109.25,
+      "topZ": -1.5,
+      "bottomZ": -23,
+      "wall": 2.5,
+      "floor": 2.5,
+      "cornerRadius": 5,
+      "seamClearance": 0.25,
+      "status": "custom nominal, fit first; may grow only with documented component conflict",
+      "magnetBossHeight": 1.95,
+      "magnetPocketWeb": 1
+    },
+    "riser": {
+      "angles": [
+        0,
+        4,
+        7
+      ],
+      "defaultAngle": 4,
+      "width": 118.3,
+      "depth": 30,
+      "minimumNoseHeight": 3,
+      "profileRadius": 1,
+      "edgeRadius": 1,
+      "endRadius": 3,
+      "magnetPocketDiameter": 6.7,
+      "magnetPocketDepth": 3.45,
+      "magnetX": [
+        -42,
+        42
+      ],
+      "status": "custom nominal radius and clearance; force/slip/cloth behaviour untested",
+      "frontY": 21.625,
+      "rearY": 51.625,
+      "magnetY": 43.625,
+      "footX": [
+        -42,
+        42
+      ],
+      "footY": 47.125,
+      "rearFootReliefDiameter": 8.5,
+      "rearFootReliefDepth": 2.5,
+      "magnetCaptureAperture": 6.1,
+      "magnetCaptureStatus": "nominal captive pocket; assembly retention and service access unvalidated",
+      "shearKeys": {
+        "diameter": 3,
+        "height": 0.8,
+        "pocketDiameter": 3.5,
+        "pocketDepth": 1.1,
+        "centers": [
+          [
+            -20,
+            43.625
+          ],
+          [
+            20,
+            43.625
+          ]
+        ],
+        "status": "custom nominal locating interface"
+      }
+    },
+    "overlay": {
+      "conceptOnly": true,
+      "thickness": 0.6,
+      "knobNotch": true,
+      "profiles": [
+        "Fusion",
+        "Editing",
+        "Shortcuts"
+      ],
+      "status": "concept geometry only; formed-sheet mechanics and reader are not selected",
+      "width": 114.3,
+      "depth": 95.25,
+      "bottomZ": 12.8
+    },
+    "rubberFoot": {
+      "diameter": 7.94,
+      "height": 2.2,
+      "profile": "spherical-cap approximation of sourced envelope",
+      "profileStatus": "nominal shape; compression and contact not physically validated",
+      "centers": [
+        [
+          -55.150000000000006,
+          -45.625
+        ],
+        [
+          55.150000000000006,
+          -45.625
+        ],
+        [
+          -55.150000000000006,
+          45.625
+        ],
+        [
+          55.150000000000006,
+          45.625
+        ]
+      ]
+    },
+    "mounting": {
+      "caseScrewPositions": [
+        [
+          -57.65,
+          -49.625
+        ],
+        [
+          57.65,
+          -49.625
+        ],
+        [
+          -57.65,
+          49.625
+        ],
+        [
+          57.65,
+          49.625
+        ]
+      ],
+      "caseScrewCount": 4,
+      "usbScrewCount": 2,
+      "pcbRetention": "plate-clipped soldered switch subassembly, supported from below by non-interfering case posts",
+      "status": "custom nominal; tool access and actual board hole placement must be checked",
+      "usbRetention": "printed cradle plus two retaining clamp screws outside the manufacturer PCB; no invented holes",
+      "usbClampScrewOffsetsX": [
+        -11,
+        11
+      ],
+      "usbClampScrewOffsetY": 0,
+      "pcbPostClearanceDiameter": 6.6,
+      "postDiameter": 5.5,
+      "nutTrapAcrossFlats": 4.4,
+      "nutTrapHeight": 1.8,
+      "panelScrewClearanceDiameter": 2.3
+    },
+    "components": {
+      "controller": {
+        "center": [
+          -25,
+          8,
+          -16
+        ],
+        "orientation": "horizontal under carrier board; connector route provisional",
+        "sourceMesh": "spec/references/waveshare/controller-source-mesh.json",
+        "height": 2.87511,
+        "status": "manufacturer CAD envelope; mounting cradle and route nominal",
+        "datum": "board-centred XY, PCB component-side top Z"
+      },
+      "usb_adapter": {
+        "rearFlush": true,
+        "centerX": 45.15,
+        "pcbTopZ": -13,
+        "status": "manufacturer CAD mouth near-flush with 0.65mm custom recess; nominal 0.5mm outer wall skin and 0.1mm PCB clearance; cradle nominal",
+        "sourceDatums": "spec/references/waveshare/adapter-datums.json",
+        "sourceMesh": "spec/references/waveshare/adapter-source-mesh.json",
+        "boardOrigin": [
+          45.15996087,
+          44.993277140000004,
+          -13
+        ],
+        "mouthCenter": [
+          45.15,
+          53.975,
+          -11.330478
+        ],
+        "mouthOuter": [
+          8.94,
+          3.16,
+          1.28
+        ],
+        "fpcExit": [
+          45.135349,
+          36.361159,
+          -12.5
+        ],
+        "nominalMouthRecess": 0.65,
+        "minimumOuterWallSkin": 0.5,
+        "pcbEdgeClearance": 0.1
+      },
+      "led_driver": {
+        "height": 1,
+        "status": "provisional package height pending full package drawing",
+        "center": [
+          -12,
+          -3,
+          -7.5
+        ]
+      },
+      "logic_buffer": {
+        "width": 2.9,
+        "depth": 2.8,
+        "height": 1.45,
+        "status": "DBV drawing envelope reference; PCB passives and route keepout nominal",
+        "center": [
+          -5,
+          -5,
+          -7.95
+        ]
+      },
+      "rgb_strip": {
+        "pixels": 14,
+        "centerY": -40.5,
+        "topZ": -10.5,
+        "status": "covered reference strip, cut length 14/144m; end pads and wiring allowance nominal"
+      },
+      "fpc_cable": {
+        "width": 4.5,
+        "thickness": 0.3,
+        "minimumBendRadius": 3,
+        "status": "provisional circular-filleted 150mm supplied cable route; centreline <=140mm leaves >=10mm nominal engagement/slack; source contact polarity/neutral axis and bend radius unvalidated",
+        "route": [
+          [
+            -24.9756755,
+            19.582123,
+            -15.5
+          ],
+          [
+            -24.9756755,
+            27,
+            -18.2
+          ],
+          [
+            -40,
+            27,
+            -18.2
+          ],
+          [
+            -40,
+            10,
+            -18.2
+          ],
+          [
+            -12,
+            10,
+            -18.2
+          ],
+          [
+            -12,
+            24,
+            -18.2
+          ],
+          [
+            25,
+            24,
+            -18.2
+          ],
+          [
+            45.135349,
+            36.361159,
+            -12.5
+          ]
+        ],
+        "nominalCableLength": 150,
+        "maximumRouteLength": 140,
+        "cornerConstruction": "true circular fillets, R3 nominal"
+      },
+      "key_led": {
+        "offset": [
+          0,
+          7.75,
+          -5
+        ],
+        "status": "provisional position outside housing envelope; optical coupling not validated"
+      },
+      "diode": {
+        "offset": [
+          -6,
+          -7.7,
+          -7.15
+        ],
+        "status": "unrouted under-PCB package placement; footprint/routing provisional"
+      }
+    },
+    "fpcCablePlugEnvelope": {
+      "width": 12,
+      "depth": 25,
+      "height": 6,
+      "connectorCentreZ": -11.330478,
+      "status": "provisional reference USB-C cable overmould, actual cable unselected"
+    }
+  },
+  "fitPolicy": {
+    "minimumNominalNonContactClearance": 0.3,
+    "clearanceStatus": "modelling allowance, not a validated manufacturing tolerance",
+    "switchNominalTravel": 3.6,
+    "switchWorstCaseTravel": 3.9,
+    "allowDesignedMatingContacts": true,
+    "externalSampleValidation": false
+  },
+  "materials": {
+    "keycaps": {
+      "name": "deep navy",
+      "rgb": [
+        0.0025,
+        0.007,
+        0.022
+      ],
+      "roughness": 0.25
+    },
+    "top": {
+      "name": "mirror-like black",
+      "rgb": [
+        0.003,
+        0.003,
+        0.004
+      ],
+      "roughness": 0.06
+    },
+    "base": {
+      "name": "heavy frost",
+      "rgb": [
+        0.4,
+        0.45,
+        0.5
+      ],
+      "roughness": 0.7
+    },
+    "legends": {
+      "name": "white",
+      "rgb": [
+        0.9,
+        0.95,
+        1
+      ]
+    }
+  },
+  "lighting": {
+    "key": "white individually controlled",
+    "base": "RGB addressable, default white",
+    "opticalValidation": false
+  },
+  "animations": {
+    "fps": 24,
+    "resolution": [
+      960,
+      720
+    ],
+    "assemblySeconds": 12,
+    "switchSeconds": 4,
+    "glowSeconds": 8
+  },
+  "scope": {
+    "pcbRouting": false,
+    "firmware": false,
+    "manufacturingFiles": false,
+    "physicalFitValidated": false,
+    "overlayHardware": false
+  }
+}

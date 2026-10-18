@@ -1,0 +1,36 @@
+{
+  "sourceSpecHash": "f3b01f1ca1fa3146d8b8418fa5d1a24e8a6f81fbbec2552a7b0e1b603857a1a7",
+  "geometryHash": "825c3c4eab495d1b896d61a9102a60e4e80efe6e2b686f5e14f7f0e5f52cc3b4",
+  "checks": [
+    {
+      "camera": "CAM assembly full frame",
+      "frames": [
+        1,
+        288
+      ],
+      "orthoScale": 245.14315795898438,
+      "normalizedImageBounds": [
+        0.1525145024061203,
+        0.05357135087251663,
+        0.8474855422973633,
+        0.9464285373687744
+      ],
+      "allFramesInside": true
+    },
+    {
+      "camera": "CAM switch full frame",
+      "frames": [
+        289,
+        384
+      ],
+      "orthoScale": 188.26683044433594,
+      "normalizedImageBounds": [
+        0.053571514785289764,
+        0.14006678760051727,
+        0.946428656578064,
+        0.8599328994750977
+      ],
+      "allFramesInside": true
+    }
+  ]
+}

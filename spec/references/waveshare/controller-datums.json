@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "sourceURL": "https://files.waveshare.com/upload/9/94/RP2040-Tiny-Step_V1.1.zip",
+  "sourceStepSHA256": "a257fe3d041aa7a360172e842ce8dba2e8393e4ff8868f587608de63431c3c70",
+  "sourceCoordinates": "Original Waveshare V1.1 STEP. PCB component top z0.",
+  "boundingBox": [
+    -0.008021,
+    18.008628,
+    -0.008628,
+    23.50863,
+    -1.000003,
+    1.8751
+  ],
+  "pcb": {
+    "stepSolidIndex": 0,
+    "bounds": [
+      -0.008021,
+      18.008628,
+      -0.008628,
+      23.50863,
+      -1.000003,
+      0.0
+    ],
+    "topZ": 0,
+    "bottomZ": -1.000003
+  },
+  "fpc": {
+    "stepSolidIndex": 49,
+    "componentName": "Molex 503480-0800",
+    "bounds": [
+      6.174628,
+      11.874628,
+      19.732123,
+      23.332124,
+      -0.02,
+      1.8751
+    ],
+    "outletDirection": [
+      0,
+      1,
+      0
+    ],
+    "exitPointProvisional": [
+      9.024628,
+      23.332124,
+      0.5
+    ],
+    "notes": "Outlet direction inferred from edge location. Exact neutral axis/contact plane and supplied cable width/thickness still provisional. Highest solid1.8751 matches adapter FPC component, likely actuator-open CAD."
+  },
+  "normalization": {
+    "translate": [
+      -9.0003035,
+      -11.750001,
+      0
+    ]
+  },
+  "envelopeNote": "Overall2.875103 height includes1mm PCB and highest FPC feature. Most other components <=1.05 above PCB, yielding2.05 overall excluding flex connector. Prior2.1 model envelope omitted that connector."
+}

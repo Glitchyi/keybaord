@@ -1,0 +1,4003 @@
+{
+  "schemaVersion": 1,
+  "revision": "fit-v1",
+  "units": "mm",
+  "sourceSpecHash": "f3b01f1ca1fa3146d8b8418fa5d1a24e8a6f81fbbec2552a7b0e1b603857a1a7",
+  "assemblyHash": "f6b7cbd4bd4e9bc7e34b170ab0e71d61f47bf8f3fe51de0226f9f22a2691fc72",
+  "partsHash": "4fe3c51db519d63e015cb0ffa00150418d03ac1cfa5692d465dfdf046c62505c",
+  "coordinateSystem": {
+    "x": "right",
+    "y": "rear",
+    "z": "up",
+    "origin": "grid centre in XY; mounting plate top in Z"
+  },
+  "layout": {
+    "columns": 6,
+    "rows": 5,
+    "pitch": 19.05,
+    "keys": [
+      {
+        "id": "esc",
+        "label": "Esc",
+        "row": 0,
+        "column": 0,
+        "units": 1,
+        "center": [
+          -47.62500000000001,
+          38.1,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "1",
+        "label": "1",
+        "row": 0,
+        "column": 1,
+        "units": 1,
+        "center": [
+          -28.575000000000003,
+          38.1,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "2",
+        "label": "2",
+        "row": 0,
+        "column": 2,
+        "units": 1,
+        "center": [
+          -9.525000000000006,
+          38.1,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "3",
+        "label": "3",
+        "row": 0,
+        "column": 3,
+        "units": 1,
+        "center": [
+          9.524999999999991,
+          38.1,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "4",
+        "label": "4",
+        "row": 0,
+        "column": 4,
+        "units": 1,
+        "center": [
+          28.575000000000003,
+          38.1,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "tab",
+        "label": "Tab",
+        "row": 1,
+        "column": 0,
+        "units": 1,
+        "center": [
+          -47.62500000000001,
+          19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "q",
+        "label": "Q",
+        "row": 1,
+        "column": 1,
+        "units": 1,
+        "center": [
+          -28.575000000000003,
+          19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "w",
+        "label": "W",
+        "row": 1,
+        "column": 2,
+        "units": 1,
+        "center": [
+          -9.525000000000006,
+          19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "e",
+        "label": "E",
+        "row": 1,
+        "column": 3,
+        "units": 1,
+        "center": [
+          9.524999999999991,
+          19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "r",
+        "label": "R",
+        "row": 1,
+        "column": 4,
+        "units": 1,
+        "center": [
+          28.575000000000003,
+          19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "t",
+        "label": "T",
+        "row": 1,
+        "column": 5,
+        "units": 1,
+        "center": [
+          47.625,
+          19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "caps",
+        "label": "Caps",
+        "row": 2,
+        "column": 0,
+        "units": 1,
+        "center": [
+          -47.62500000000001,
+          0,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "a",
+        "label": "A",
+        "row": 2,
+        "column": 1,
+        "units": 1,
+        "center": [
+          -28.575000000000003,
+          0,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "s",
+        "label": "S",
+        "row": 2,
+        "column": 2,
+        "units": 1,
+        "center": [
+          -9.525000000000006,
+          0,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "d",
+        "label": "D",
+        "row": 2,
+        "column": 3,
+        "units": 1,
+        "center": [
+          9.524999999999991,
+          0,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "f",
+        "label": "F",
+        "row": 2,
+        "column": 4,
+        "units": 1,
+        "center": [
+          28.575000000000003,
+          0,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "g",
+        "label": "G",
+        "row": 2,
+        "column": 5,
+        "units": 1,
+        "center": [
+          47.625,
+          0,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "shift",
+        "label": "Shift",
+        "row": 3,
+        "column": 0,
+        "units": 1,
+        "center": [
+          -47.62500000000001,
+          -19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "z",
+        "label": "Z",
+        "row": 3,
+        "column": 1,
+        "units": 1,
+        "center": [
+          -28.575000000000003,
+          -19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "x",
+        "label": "X",
+        "row": 3,
+        "column": 2,
+        "units": 1,
+        "center": [
+          -9.525000000000006,
+          -19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "c",
+        "label": "C",
+        "row": 3,
+        "column": 3,
+        "units": 1,
+        "center": [
+          9.524999999999991,
+          -19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "v",
+        "label": "V",
+        "row": 3,
+        "column": 4,
+        "units": 1,
+        "center": [
+          28.575000000000003,
+          -19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "b",
+        "label": "B",
+        "row": 3,
+        "column": 5,
+        "units": 1,
+        "center": [
+          47.625,
+          -19.049999999999997,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "ctrl",
+        "label": "Ctrl",
+        "row": 4,
+        "column": 0,
+        "units": 1,
+        "center": [
+          -47.62500000000001,
+          -38.10000000000001,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "alt",
+        "label": "Alt",
+        "row": 4,
+        "column": 1,
+        "units": 1,
+        "center": [
+          -28.575000000000003,
+          -38.10000000000001,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "space",
+        "label": "Space",
+        "row": 4,
+        "column": 2,
+        "units": 2,
+        "center": [
+          0,
+          -38.10000000000001,
+          0
+        ],
+        "partId": "keycap_2u",
+        "capDimensions": {
+          "width": 37.05,
+          "depth": 18,
+          "crownWidth": 36.65,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stabilizerCenters": 23.8,
+          "status": "custom nominal with source-based stabilizer centres",
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          }
+        }
+      },
+      {
+        "id": "fn",
+        "label": "Fn",
+        "row": 4,
+        "column": 4,
+        "units": 1,
+        "center": [
+          28.575000000000003,
+          -38.10000000000001,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      },
+      {
+        "id": "5",
+        "label": "5",
+        "row": 4,
+        "column": 5,
+        "units": 1,
+        "center": [
+          47.625,
+          -38.10000000000001,
+          0
+        ],
+        "partId": "keycap_1u",
+        "capDimensions": {
+          "width": 18,
+          "depth": 18,
+          "crownWidth": 17.6,
+          "crownDepth": 17.6,
+          "bottomZ": 4.4,
+          "crownTopZ": 12.2,
+          "dishDepth": 0.6,
+          "minInnerRoofZ": 10.6,
+          "wall": 0.7,
+          "cornerRadius": 1.5,
+          "stemSocket": {
+            "crossLength": 4.1,
+            "crossWidth": 1.3,
+            "depth": 3.2,
+            "ceilingZ": 10,
+            "bossOuter": 5.6,
+            "status": "provisional custom printed mating fit; not sample-tested"
+          },
+          "status": "custom nominal; printability and stem retention unvalidated"
+        }
+      }
+    ],
+    "encoder": {
+      "id": "dial",
+      "row": 0,
+      "column": 5,
+      "center": [
+        47.625,
+        38.1,
+        0
+      ]
+    }
+  },
+  "datums": {
+    "plateTop": 0,
+    "plateBottom": -1.5,
+    "pcbTop": -5,
+    "pcbBottom": -6.5,
+    "caseSeam": -1.5,
+    "caseBottom": -23
+  },
+  "custom": {
+    "plate": {
+      "width": 128.3,
+      "depth": 109.25,
+      "thickness": 1.5,
+      "cornerRadius": 3.5,
+      "switchOpening": 14,
+      "openingTolerance": 0.05,
+      "openingRadiusMax": 0.3,
+      "encoderOpening": [
+        14.4,
+        14.4
+      ],
+      "status": "sourced opening; custom nominal outline and encoder clearance"
+    },
+    "pcb": {
+      "width": 120.3,
+      "depth": 101.25,
+      "thickness": 1.5,
+      "status": "nominal unrouted carrier; source-aligned switch/stabilizer mounting only"
+    },
+    "keycap_1u": {
+      "width": 18,
+      "depth": 18,
+      "crownWidth": 17.6,
+      "crownDepth": 17.6,
+      "bottomZ": 4.4,
+      "crownTopZ": 12.2,
+      "dishDepth": 0.6,
+      "minInnerRoofZ": 10.6,
+      "wall": 0.7,
+      "cornerRadius": 1.5,
+      "stemSocket": {
+        "crossLength": 4.1,
+        "crossWidth": 1.3,
+        "depth": 3.2,
+        "ceilingZ": 10,
+        "bossOuter": 5.6,
+        "status": "provisional custom printed mating fit; not sample-tested"
+      },
+      "status": "custom nominal; printability and stem retention unvalidated"
+    },
+    "keycap_2u": {
+      "width": 37.05,
+      "depth": 18,
+      "crownWidth": 36.65,
+      "crownDepth": 17.6,
+      "bottomZ": 4.4,
+      "crownTopZ": 12.2,
+      "dishDepth": 0.6,
+      "minInnerRoofZ": 10.6,
+      "wall": 0.7,
+      "cornerRadius": 1.5,
+      "stabilizerCenters": 23.8,
+      "status": "custom nominal with source-based stabilizer centres",
+      "stemSocket": {
+        "crossLength": 4.1,
+        "crossWidth": 1.3,
+        "depth": 3.2,
+        "ceilingZ": 10,
+        "bossOuter": 5.6,
+        "status": "provisional custom printed mating fit; not sample-tested"
+      }
+    },
+    "knob": {
+      "diameter": 16,
+      "height": 10,
+      "bottomZ": 8.5,
+      "topZ": 18.5,
+      "shaftBore": 6.15,
+      "shaftFlat": 4.65,
+      "shaftBoreStatus": "provisional printed fit allowance"
+    },
+    "case": {
+      "width": 128.3,
+      "depth": 109.25,
+      "topZ": -1.5,
+      "bottomZ": -23,
+      "wall": 2.5,
+      "floor": 2.5,
+      "cornerRadius": 5,
+      "seamClearance": 0.25,
+      "status": "custom nominal, fit first; may grow only with documented component conflict",
+      "magnetBossHeight": 1.95,
+      "magnetPocketWeb": 1
+    },
+    "riser": {
+      "angles": [
+        0,
+        4,
+        7
+      ],
+      "defaultAngle": 4,
+      "width": 118.3,
+      "depth": 30,
+      "minimumNoseHeight": 3,
+      "profileRadius": 1,
+      "edgeRadius": 1,
+      "endRadius": 3,
+      "magnetPocketDiameter": 6.7,
+      "magnetPocketDepth": 3.45,
+      "magnetX": [
+        -42,
+        42
+      ],
+      "status": "custom nominal radius and clearance; force/slip/cloth behaviour untested",
+      "frontY": 21.625,
+      "rearY": 51.625,
+      "magnetY": 43.625,
+      "footX": [
+        -42,
+        42
+      ],
+      "footY": 47.125,
+      "rearFootReliefDiameter": 8.5,
+      "rearFootReliefDepth": 2.5,
+      "magnetCaptureAperture": 6.1,
+      "magnetCaptureStatus": "nominal captive pocket; assembly retention and service access unvalidated",
+      "shearKeys": {
+        "diameter": 3,
+        "height": 0.8,
+        "pocketDiameter": 3.5,
+        "pocketDepth": 1.1,
+        "centers": [
+          [
+            -20,
+            43.625
+          ],
+          [
+            20,
+            43.625
+          ]
+        ],
+        "status": "custom nominal locating interface"
+      }
+    },
+    "overlay": {
+      "conceptOnly": true,
+      "thickness": 0.6,
+      "knobNotch": true,
+      "profiles": [
+        "Fusion",
+        "Editing",
+        "Shortcuts"
+      ],
+      "status": "concept geometry only; formed-sheet mechanics and reader are not selected",
+      "width": 114.3,
+      "depth": 95.25,
+      "bottomZ": 12.8
+    },
+    "rubberFoot": {
+      "diameter": 7.94,
+      "height": 2.2,
+      "profile": "spherical-cap approximation of sourced envelope",
+      "profileStatus": "nominal shape; compression and contact not physically validated",
+      "centers": [
+        [
+          -55.150000000000006,
+          -45.625
+        ],
+        [
+          55.150000000000006,
+          -45.625
+        ],
+        [
+          -55.150000000000006,
+          45.625
+        ],
+        [
+          55.150000000000006,
+          45.625
+        ]
+      ]
+    },
+    "mounting": {
+      "caseScrewPositions": [
+        [
+          -57.65,
+          -49.625
+        ],
+        [
+          57.65,
+          -49.625
+        ],
+        [
+          -57.65,
+          49.625
+        ],
+        [
+          57.65,
+          49.625
+        ]
+      ],
+      "caseScrewCount": 4,
+      "usbScrewCount": 2,
+      "pcbRetention": "plate-clipped soldered switch subassembly, supported from below by non-interfering case posts",
+      "status": "custom nominal; tool access and actual board hole placement must be checked",
+      "usbRetention": "printed cradle plus two retaining clamp screws outside the manufacturer PCB; no invented holes",
+      "usbClampScrewOffsetsX": [
+        -11,
+        11
+      ],
+      "usbClampScrewOffsetY": 0,
+      "pcbPostClearanceDiameter": 6.6,
+      "postDiameter": 5.5,
+      "nutTrapAcrossFlats": 4.4,
+      "nutTrapHeight": 1.8,
+      "panelScrewClearanceDiameter": 2.3
+    },
+    "components": {
+      "controller": {
+        "center": [
+          -25,
+          8,
+          -16
+        ],
+        "orientation": "horizontal under carrier board; connector route provisional",
+        "sourceMesh": "spec/references/waveshare/controller-source-mesh.json",
+        "height": 2.87511,
+        "status": "manufacturer CAD envelope; mounting cradle and route nominal",
+        "datum": "board-centred XY, PCB component-side top Z"
+      },
+      "usb_adapter": {
+        "rearFlush": true,
+        "centerX": 45.15,
+        "pcbTopZ": -13,
+        "status": "manufacturer CAD mouth near-flush with 0.65mm custom recess; nominal 0.5mm outer wall skin and 0.1mm PCB clearance; cradle nominal",
+        "sourceDatums": "spec/references/waveshare/adapter-datums.json",
+        "sourceMesh": "spec/references/waveshare/adapter-source-mesh.json",
+        "boardOrigin": [
+          45.15996087,
+          44.993277140000004,
+          -13
+        ],
+        "mouthCenter": [
+          45.15,
+          53.975,
+          -11.330478
+        ],
+        "mouthOuter": [
+          8.94,
+          3.16,
+          1.28
+        ],
+        "fpcExit": [
+          45.135349,
+          36.361159,
+          -12.5
+        ],
+        "nominalMouthRecess": 0.65,
+        "minimumOuterWallSkin": 0.5,
+        "pcbEdgeClearance": 0.1
+      },
+      "led_driver": {
+        "height": 1,
+        "status": "provisional package height pending full package drawing",
+        "center": [
+          -12,
+          -3,
+          -7.5
+        ]
+      },
+      "logic_buffer": {
+        "width": 2.9,
+        "depth": 2.8,
+        "height": 1.45,
+        "status": "DBV drawing envelope reference; PCB passives and route keepout nominal",
+        "center": [
+          -5,
+          -5,
+          -7.95
+        ]
+      },
+      "rgb_strip": {
+        "pixels": 14,
+        "centerY": -40.5,
+        "topZ": -10.5,
+        "status": "covered reference strip, cut length 14/144m; end pads and wiring allowance nominal"
+      },
+      "fpc_cable": {
+        "width": 4.5,
+        "thickness": 0.3,
+        "minimumBendRadius": 3,
+        "status": "provisional circular-filleted 150mm supplied cable route; centreline <=140mm leaves >=10mm nominal engagement/slack; source contact polarity/neutral axis and bend radius unvalidated",
+        "route": [
+          [
+            -24.9756755,
+            19.582123,
+            -15.5
+          ],
+          [
+            -24.9756755,
+            27,
+            -18.2
+          ],
+          [
+            -40,
+            27,
+            -18.2
+          ],
+          [
+            -40,
+            10,
+            -18.2
+          ],
+          [
+            -12,
+            10,
+            -18.2
+          ],
+          [
+            -12,
+            24,
+            -18.2
+          ],
+          [
+            25,
+            24,
+            -18.2
+          ],
+          [
+            45.135349,
+            36.361159,
+            -12.5
+          ]
+        ],
+        "nominalCableLength": 150,
+        "maximumRouteLength": 140,
+        "cornerConstruction": "true circular fillets, R3 nominal"
+      },
+      "key_led": {
+        "offset": [
+          0,
+          7.75,
+          -5
+        ],
+        "status": "provisional position outside housing envelope; optical coupling not validated"
+      },
+      "diode": {
+        "offset": [
+          -6,
+          -7.7,
+          -7.15
+        ],
+        "status": "unrouted under-PCB package placement; footprint/routing provisional"
+      }
+    },
+    "fpcCablePlugEnvelope": {
+      "width": 12,
+      "depth": 25,
+      "height": 6,
+      "connectorCentreZ": -11.330478,
+      "status": "provisional reference USB-C cable overmould, actual cable unselected"
+    }
+  },
+  "materials": {
+    "keycaps": {
+      "name": "deep navy",
+      "rgb": [
+        0.0025,
+        0.007,
+        0.022
+      ],
+      "roughness": 0.25
+    },
+    "top": {
+      "name": "mirror-like black",
+      "rgb": [
+        0.003,
+        0.003,
+        0.004
+      ],
+      "roughness": 0.06
+    },
+    "base": {
+      "name": "heavy frost",
+      "rgb": [
+        0.4,
+        0.45,
+        0.5
+      ],
+      "roughness": 0.7
+    },
+    "legends": {
+      "name": "white",
+      "rgb": [
+        0.9,
+        0.95,
+        1
+      ]
+    }
+  },
+  "fitPolicy": {
+    "minimumNominalNonContactClearance": 0.3,
+    "clearanceStatus": "modelling allowance, not a validated manufacturing tolerance",
+    "switchNominalTravel": 3.6,
+    "switchWorstCaseTravel": 3.9,
+    "allowDesignedMatingContacts": true,
+    "externalSampleValidation": false
+  },
+  "lighting": {
+    "key": "white individually controlled",
+    "base": "RGB addressable, default white",
+    "opticalValidation": false
+  },
+  "animations": {
+    "fps": 24,
+    "resolution": [
+      960,
+      720
+    ],
+    "assemblySeconds": 12,
+    "switchSeconds": 4,
+    "glowSeconds": 8
+  },
+  "scope": {
+    "pcbRouting": false,
+    "firmware": false,
+    "manufacturingFiles": false,
+    "physicalFitValidated": false,
+    "overlayHardware": false
+  },
+  "poses": {
+    "0": {
+      "angleDegrees": 0,
+      "rotationX": 0,
+      "translation": [
+        0,
+        0,
+        25.2
+      ],
+      "contactDefinition": "analytic spherical-cap contact from sourced foot envelope; exact profile and compression unvalidated"
+    },
+    "4": {
+      "angleDegrees": 4,
+      "rotationX": 0.06981317007977318,
+      "translation": [
+        0,
+        0,
+        28.332658353169283
+      ],
+      "contactDefinition": "analytic spherical-cap contact from sourced foot envelope; exact profile and compression unvalidated"
+    },
+    "7": {
+      "angleDegrees": 7,
+      "rotationX": 0.12217304763960307,
+      "translation": [
+        0,
+        0,
+        30.607350901642143
+      ],
+      "contactDefinition": "analytic spherical-cap contact from sourced foot envelope; exact profile and compression unvalidated"
+    }
+  },
+  "parts": {
+    "switch": {
+      "name": "BOX Jade standard-height soldered clicky switch",
+      "manufacturer": "Kailh",
+      "sku": "CPG1511F01S11-1",
+      "quantity": 28,
+      "quantityPurchased": 30,
+      "packSize": 10,
+      "unitpriceINR": 28,
+      "priceIncludesTax": true,
+      "supplierURL": "https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-box-jade-switch/",
+      "priceStatus": "verified-listed",
+      "sourceIds": [
+        "kailh-jade",
+        "jade-price"
+      ],
+      "dimensions": {
+        "bodyWidth": 15.6,
+        "bodyDepth": 13.9,
+        "mountBodyWidth": 13.95,
+        "mountBodyDepth": 13.95,
+        "housingRoofAbovePCB": 11.2,
+        "stemProjection": 3.8,
+        "stemRestAbovePCB": 15,
+        "plateSeatAbovePCB": 5,
+        "plateCutoutWidth": 14,
+        "plateCutoutDepth": 14,
+        "plateCutoutCornerRadiusMax": 0.3,
+        "plateThickness": 1.5,
+        "totalTravel": 3.6,
+        "preTravel": 1.8,
+        "widthOverLatches": 14.87,
+        "oppositeBodyHeight": 10.7,
+        "steppedBaseHeight": 0.5,
+        "centerPostDiameter": 3.85,
+        "centerPostProjection": 1.4
+      },
+      "tolerance": {
+        "mountBodyWidth": 0.05,
+        "mountBodyDepth": 0.05,
+        "plateCutoutWidth": 0.05,
+        "plateCutoutDepth": 0.05,
+        "plateThickness": 0.1,
+        "totalTravel": 0.3,
+        "preTravel": 0.3,
+        "widthOverLatches": 0.5,
+        "centerPostDiameterPlus": 0,
+        "centerPostDiameterMinus": 0.1
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Manufacturer PDF actual page4 outer profile; actual page11 plate and loading parameters. 1.50 +/-0.10 is plate thickness, not PCB thickness. Stem cross section and inner BOX guide opening are undimensioned: custom keycap stem/boss fit remains provisional. Price normalized per switch from INR280 ten-pack; purchase three packs, thirty switches. Added source profile dimensions from actual PDFpage4: width over latches14.87+/-0.5, opposite-view bodyheight10.70, centerpost diameter3.85+0/-0.1 and projection1.40. steppedBaseHeight0.50 is the arithmetic difference11.20-10.70 between profile datums, not a separately toleranced manufacturer callout. Undimensioned housing taper, LED window, terminal shapes/lengths and BOX/stem internal geometry remain approximate contours, never measured dimensions."
+    },
+    "stabilizer": {
+      "name": "2u PCB-mounted leveling mechanism",
+      "manufacturer": "CHERRY",
+      "sku": "G99-0742",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "cherry-stab"
+      ],
+      "dimensions": {
+        "supportCenterSpacing": 23.8,
+        "supportOffsetX": 11.9,
+        "pcbThickness": 1.5,
+        "smallHoleDiameter": 3.05,
+        "largeHoleDiameter": 4,
+        "holePairSpacingY": 15.24,
+        "smallHoleOffsetY": -7,
+        "largeHoleOffsetY": 8.24
+      },
+      "tolerance": {
+        "supportCenterSpacing": 0.1,
+        "pcbThickness": 0.14,
+        "smallHoleDiameterPlus": 0.1,
+        "smallHoleDiameterMinus": 0,
+        "largeHoleDiameterPlus": 0.05,
+        "largeHoleDiameterMinus": 0
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Exact catalogue drawing reference, not stocked Indian procurement confirmation. Printed p70 identifies A=23.8 for 2u; p71 PCB pattern. Y signs are local convention and may be mirrored as a whole. Housing details not fully dimensioned; render bracket geometry as approximation. Do not substitute generic +/-12mm cap stem centers."
+    },
+    "controller": {
+      "name": "RP2040-Tiny main controller module",
+      "manufacturer": "Waveshare",
+      "sku": "RP2040-Tiny V1.1",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": 513.3,
+      "priceIncludesTax": true,
+      "supplierURL": "https://hubtronics.in/rp2040-tiny-kit",
+      "priceStatus": "verified-listed",
+      "sourceIds": [
+        "tiny-main-step",
+        "tiny-wiki",
+        "tiny-kit-price"
+      ],
+      "dimensions": {
+        "width": 18,
+        "depth": 23.5,
+        "height": 2.87511
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Official V1.1 STEP overall height2.875103mm: PCBbottom-1.000003 to highest FPC feature1.8751. Rounded conservative2.87511 model envelope; highest component is FPC connector, likely actuator-open CAD. Other components alone fit about2.05 overall. Detailed original-frame datums/mesh in spec/references/waveshare/controller-datums.json. Price is full kit including adapter and FPC, not charged twice; Hubtronics listing showed zero stock."
+    },
+    "usb_adapter": {
+      "name": "Remote USB-C adapter board",
+      "manufacturer": "Waveshare",
+      "sku": "RP2040-Tiny-Adapter V1.1",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "reference-only",
+      "sourceIds": [
+        "tiny-adapter-step",
+        "tiny-wiki"
+      ],
+      "dimensions": {
+        "pcbWidth": 18,
+        "pcbDepth": 18,
+        "width": 18.02,
+        "depth": 18.02,
+        "height": 4.25
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Official STEP assembled bbox is not a socket-mouth datum. Extract connector front face/center, PCB surfaces, FPC outlet and mounting features directly from official STEP before claiming flush fit. Included in controller kit; separate price unknown."
+    },
+    "encoder": {
+      "name": "Rotary encoder with push switch",
+      "manufacturer": "Bourns",
+      "sku": "PEC11R-4215F-S0024",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "encoder-drawing"
+      ],
+      "dimensions": {
+        "bodyWidth": 12.5,
+        "bodyDepth": 13.4,
+        "bodyHeight": 6.5,
+        "shaftDiameter": 6,
+        "shaftDFlat": 4.5,
+        "shaftLength": 15,
+        "shaftTipAbovePCB": 21.5,
+        "shaftFlatLength": 7,
+        "bushingLength": 5,
+        "pushTravel": 0.5,
+        "pinProjectionBelowPCB": 3.7,
+        "pinSpan": 14
+      },
+      "tolerance": {
+        "shaftDiameter": 0.1,
+        "shaftDFlatPlus": 0,
+        "shaftDFlatMinus": 0.05
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Use PEC11R-4xxxF-Sxxxx drawing, PDFpage2 bottom; L15 table PDFpage3. 24 detents and 24 pulses. BodyHeight6.5 is PCB mounting datum to bushing shoulder; L15 is shoulder to tip. Default drawing tolerances <10mm +/-0.3, >=10mm +/-0.5 unless called out."
+    },
+    "key_led": {
+      "name": "Top-emitting white per-key LED",
+      "manufacturer": "Kingbright",
+      "sku": "APT1608QWF/D",
+      "quantity": 28,
+      "quantityPurchased": 28,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "kingbright-led"
+      ],
+      "dimensions": {
+        "width": 1.6,
+        "depth": 0.8,
+        "height": 0.75
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Package drawing sourced. Optical passage through selected BOX Jade and custom cap legend is provisional; no physical brightness or optical validation. Footprint/orientation belongs to future electronics work."
+    },
+    "led_driver": {
+      "name": "36-channel white LED PWM driver",
+      "manufacturer": "Lumissil",
+      "sku": "IS31FL3236-QFLS2-TR",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "lumissil-driver"
+      ],
+      "dimensions": {
+        "width": 5,
+        "depth": 5,
+        "pinCount": 44
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "QFN44 5x5 package. Height/pad layout and support circuit must use package drawing before board manufacture. Model is an unrouted PCB planning representation."
+    },
+    "rgb_strip": {
+      "name": "Base RGB LED strip, white flex PCB",
+      "manufacturer": "Adafruit",
+      "sku": "2969",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "reference-only",
+      "sourceIds": [
+        "adafruit-strip"
+      ],
+      "dimensions": {
+        "width": 10.4,
+        "height": 4.3,
+        "uncasedWidth": 7.5,
+        "pixelPitch": 6.944444444444445,
+        "purchasedLength": 1000
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "144pixels/m, covered strip10.4x4.3mm; bare strip7.5mm wide is different envelope. Installed segment length/count belongs to assembly. Purchase full1m; no Indian INR quote verified. Full-power electrical budget not validated."
+    },
+    "logic_buffer": {
+      "name": "5V RGB data logic buffer",
+      "manufacturer": "Texas Instruments",
+      "sku": "SN74AHCT1G125DBVR",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "ti-buffer"
+      ],
+      "dimensions": {},
+      "tolerance": {},
+      "dimensionStatus": "provisional",
+      "notes": "Selected electrical/package reference only. Exact DBV package and support components need drawing verification; no complete electronics design claimed."
+    },
+    "magnet": {
+      "name": "Captive riser attachment disc magnet",
+      "manufacturer": "K&J Magnetics",
+      "sku": "D42",
+      "quantity": 6,
+      "quantityPurchased": 6,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "magnet-drawing"
+      ],
+      "dimensions": {
+        "diameter": 6.35,
+        "thickness": 3.175
+      },
+      "tolerance": {
+        "diameter": 0.1,
+        "thickness": 0.1
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Axially magnetized N42 NiCuNi. Six total: two in case, two in 4deg bar, two in 7deg bar; only four installed in one tilted assembly. Pocket clearance, positive retaining closure and keyed shear seat are custom assembly decisions. Published thick-steel pull force is not riser retention performance. No verified Indian exact-SKU INR quote."
+    },
+    "rubber_foot": {
+      "name": "Clear hemispherical adhesive contact foot",
+      "manufacturer": "3M",
+      "sku": "SJ5302 / 7100006189",
+      "quantity": 8,
+      "quantityPurchased": 8,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "foot-drawing"
+      ],
+      "dimensions": {
+        "diameter": 7.94,
+        "height": 2.2
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Four flat-case contacts plus two contacts per alternative bar = eight purchased/modelled. Contact compression, adhesive and printed substrate adhesion remain unverified."
+    },
+    "fastener": {
+      "name": "M2 x 6 socket cap enclosure screw",
+      "manufacturer": "RS PRO",
+      "sku": "293-280",
+      "quantity": 6,
+      "quantityPurchased": 6,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "screw-drawing"
+      ],
+      "dimensions": {
+        "threadDiameter": 2,
+        "threadLength": 6,
+        "headHeight": 2,
+        "headDiameter": 3.8,
+        "threadPitch": 0.4
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Six total: four enclosure screws plus two USB adapter cradle/clamp screws. Adapter has no mounting screw holes; screws close an external clamp, never pass through invented board holes. Nominal DIN912 head envelope; exact tolerances and final length stack remain unverified."
+    },
+    "fastener_nut": {
+      "name": "M2 captive hex nut",
+      "manufacturer": "RS PRO",
+      "sku": "248-4551",
+      "quantity": 6,
+      "quantityPurchased": 6,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "nut-reference"
+      ],
+      "dimensions": {
+        "threadDiameter": 2,
+        "height": 1.6,
+        "widthAcrossFlats": 4,
+        "threadPitch": 0.4
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Six captive nuts for four enclosure screws and two USB cradle/clamp screws. DIN934 nominal width4mm; custom pocket clearances and final length stack remain provisional."
+    },
+    "pcb": {
+      "name": "Unrouted custom carrier PCB",
+      "manufacturer": "Custom",
+      "sku": "PCB",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "thickness": 1.5
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "PCBtop datum -5mm relative plateTop0. Thickness1.5 selected model decision compatible with stabilizer; not an inferred Kailh PCB requirement. Outline/holes/supports in assembly spec. No routed/manufacturing PCB."
+    },
+    "plate": {
+      "name": "Custom switch support plate",
+      "manufacturer": "Custom",
+      "sku": "PLATE",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "thickness": 1.5
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "PlateTop0; cutouts14x14 with R<=.3 per switch drawing. Mirror black appearance is finish target; manufacturing process/tolerance unknown."
+    },
+    "keycap_1u": {
+      "name": "Custom navy 1u shallow-dish keycap",
+      "manufacturer": "Custom",
+      "sku": "KEYCAP_1U",
+      "quantity": 27,
+      "quantityPurchased": 27,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "width": 18,
+        "depth": 18,
+        "wallThickness": 0.7
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Custom nominal geometry only. White legend inlays; print process/material and crosssocket/BOX internal boss fit unverified. Assembly controls roof/stem/skirt dimensions."
+    },
+    "keycap_2u": {
+      "name": "Custom navy 2u Space keycap",
+      "manufacturer": "Custom",
+      "sku": "KEYCAP_2U",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "width": 37.05,
+        "depth": 18,
+        "wallThickness": 0.7,
+        "stabilizerCenterSpacing": 23.8
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Three sockets: central switch and two stabilizer axes +/-11.9mm. Exact stem socket/fit provisional."
+    },
+    "knob": {
+      "name": "Custom dark navy encoder knob",
+      "manufacturer": "Custom",
+      "sku": "KNOB",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {},
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Assembly defines diameter/height/shaft seat and clearances; D-shaft fit and positive push clearance provisional."
+    },
+    "case": {
+      "name": "Custom frosted enclosure and mirror black top",
+      "manufacturer": "Custom",
+      "sku": "CASE",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "width": 128.3,
+        "depth": 109.25
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Nominal integration envelope only; root assembly controls outline, walls, mounts and datums. Case price excludes the separately listed 4deg and7deg risers. Printed and optical fit unverified."
+    },
+    "overlay": {
+      "name": "Removable macro legend overlay concept",
+      "manufacturer": "Custom",
+      "sku": "OVERLAY",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {},
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Top-right dial notch; concept-only material/skin thickness and automatic profile identification remain unimplemented."
+    },
+    "fpc_cable": {
+      "name": "Kit 8-pin USB interconnect flex cable",
+      "manufacturer": "Waveshare",
+      "sku": "RP2040-Tiny-Kit supplied FPC",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "reference-only",
+      "sourceIds": [
+        "tiny-wiki"
+      ],
+      "dimensions": {
+        "length": 150
+      },
+      "tolerance": {},
+      "dimensionStatus": "provisional",
+      "notes": "Manufacturer kit approx15cm cable. Connector pitch/contact side/cable width/thickness and minimum bend radius require official CAD/detail confirmation. Any illustrated bend radius is an explicit assembly assumption. Included in controller kit."
+    },
+    "diode": {
+      "name": "Per-key matrix anti-ghosting diode",
+      "manufacturer": "Vishay",
+      "sku": "1N4148W-E3-08",
+      "quantity": 28,
+      "quantityPurchased": 28,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "vishay-diode"
+      ],
+      "dimensions": {
+        "bodyLength": 2.7,
+        "bodyWidth": 1.55,
+        "height": 1.175,
+        "leadSpan": 3.7,
+        "leadWidth": 0.55
+      },
+      "tolerance": {
+        "bodyLength": 0.15,
+        "bodyWidth": 0.15,
+        "height": 0.175,
+        "leadSpan": 0.15,
+        "leadWidth": 0.1
+      },
+      "dimensionStatus": "sourced",
+      "notes": "SOD-123 package; one diode per28switches. Package model only; polarity and matrix connections require schematic/routing review. Manufacturer reel ordering quantities are not a small-quantity purchase quote; distributor cut-tape MOQ and spares unresolved."
+    },
+    "riser_4": {
+      "name": "Custom full-width magnetic4degree riser bar",
+      "manufacturer": "Custom",
+      "sku": "RISER-4",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "angleDegrees": 4
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Assembly defines rounded full-width bar dimensions, keyed seat and captive magnet pockets. Separate printed part price; magnets/feet listed elsewhere. One of two alternatives installed at a time, or neither for flat use."
+    },
+    "riser_7": {
+      "name": "Custom full-width magnetic7degree riser bar",
+      "manufacturer": "Custom",
+      "sku": "RISER-7",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "angleDegrees": 7
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Assembly defines rounded full-width bar dimensions, keyed seat and captive magnet pockets. Separate printed part price; magnets/feet listed elsewhere. One of two alternatives installed at a time, or neither for flat use."
+    }
+  },
+  "sources": [
+    {
+      "id": "kailh-jade",
+      "url": "https://cdn-shop.adafruit.com/product-files/5149/BOX_Jade.pdf",
+      "title": "Kailh BOX Jade CPG1511F01S11-1 specification",
+      "revision": "Rev B KH-PS1803-34",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "cherry-stab",
+      "url": "https://datasheet.octopart.com/0G990742-Cherry-datasheet-26580244.pdf",
+      "title": "CHERRY Keymodule MX catalogue, printed pages 70-71",
+      "revision": "catalogue drawing",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "tiny-main-step",
+      "url": "https://files.waveshare.com/upload/9/94/RP2040-Tiny-Step_V1.1.zip",
+      "title": "Waveshare RP2040-Tiny main board STEP",
+      "revision": "V1.1",
+      "status": "manufacturer-cad"
+    },
+    {
+      "id": "tiny-adapter-step",
+      "url": "https://files.waveshare.com/upload/1/1e/RP2040-Tiny-Adapter-Step_V1.1.zip",
+      "title": "Waveshare RP2040-Tiny Adapter STEP",
+      "revision": "V1.1",
+      "status": "manufacturer-cad"
+    },
+    {
+      "id": "tiny-wiki",
+      "url": "https://www.waveshare.com/wiki/RP2040-Tiny",
+      "title": "Waveshare RP2040-Tiny documentation",
+      "revision": "V1.1 cable connection notes",
+      "status": "manufacturer-documentation"
+    },
+    {
+      "id": "tiny-kit-price",
+      "url": "https://hubtronics.in/rp2040-tiny-kit",
+      "title": "Hubtronics RP2040-Tiny kit listing",
+      "revision": "observed 2026-10-18",
+      "status": "supplier-listing-out-of-stock"
+    },
+    {
+      "id": "encoder-drawing",
+      "url": "https://www.bourns.com/docs/product-datasheets/pec11r.pdf",
+      "title": "Bourns PEC11R series drawing and ordering table",
+      "revision": "REV 04/26",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "kingbright-led",
+      "url": "https://www.kingbrightusa.com/images/catalog/spec/APT1608QWF-D.pdf",
+      "title": "Kingbright APT1608QWF/D white LED",
+      "revision": "Ver 13B",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "lumissil-driver",
+      "url": "https://www.lumissil.com/assets/pdf/core/IS31FL3236_DS.pdf",
+      "title": "Lumissil IS31FL3236 36-channel LED driver",
+      "revision": "datasheet",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "adafruit-strip",
+      "url": "https://www.adafruit.com/product/2969",
+      "title": "Adafruit Mini Skinny RGB strip 144 LED/m, white PCB, product 2969",
+      "revision": "observed 2026-10-18",
+      "status": "manufacturer-listing"
+    },
+    {
+      "id": "magnet-drawing",
+      "url": "https://www.kjmagnetics.com/d42-neodymium-disc-magnet",
+      "title": "K and J D42 axial neodymium disc magnet",
+      "revision": "observed 2026-10-18",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "foot-drawing",
+      "url": "https://www.3m.com.my/3M/en_MY/p/d/v000180779/",
+      "title": "3M Bumpon SJ5302 clear protective foot",
+      "revision": "3M ID 7100006189",
+      "status": "manufacturer-listing"
+    },
+    {
+      "id": "screw-drawing",
+      "url": "https://docs.rs-online.com/3718/A700000007946802.pdf",
+      "title": "RS PRO 293-280 M2 x 6 socket cap screw",
+      "revision": "supplier drawing",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "nut-reference",
+      "url": "https://uk.rs-online.com/web/p/hex-nuts/2484551",
+      "title": "RS PRO 248-4551 DIN934 M2 nut",
+      "revision": "supplier listing",
+      "status": "manufacturer-listing"
+    },
+    {
+      "id": "jade-price",
+      "url": "https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-box-jade-switch/",
+      "title": "Meckeys Kailh BOX Jade switches, ten pack",
+      "revision": "observed 2026-10-18",
+      "status": "supplier-listing"
+    },
+    {
+      "id": "ti-buffer",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+      "title": "Texas Instruments SN74AHCT1G125 single buffer",
+      "revision": "datasheet to verify package before manufacture",
+      "status": "manufacturer-documentation"
+    },
+    {
+      "id": "vishay-diode",
+      "url": "https://www.vishay.com/docs/86356/1n4148w.pdf",
+      "title": "Vishay1N4148W small signal diode package drawing, PDFp4",
+      "revision": "Rev1.0 16-Nov-2023; package drawing18-Jan-2022",
+      "status": "manufacturer-drawing"
+    }
+  ],
+  "bom": null,
+  "priceDate": "2026-10-18",
+  "rawParts": {
+    "schemaVersion": 1,
+    "units": "mm",
+    "currency": "INR",
+    "priceDate": "2026-10-18",
+    "scope": "Drawing-based parts model and preliminary purchase BOM; not a manufacturing release or purchase authorization.",
+    "sources": [
+      {
+        "id": "kailh-jade",
+        "url": "https://cdn-shop.adafruit.com/product-files/5149/BOX_Jade.pdf",
+        "title": "Kailh BOX Jade CPG1511F01S11-1 specification",
+        "revision": "Rev B KH-PS1803-34",
+        "status": "manufacturer-drawing"
+      },
+      {
+        "id": "cherry-stab",
+        "url": "https://datasheet.octopart.com/0G990742-Cherry-datasheet-26580244.pdf",
+        "title": "CHERRY Keymodule MX catalogue, printed pages 70-71",
+        "revision": "catalogue drawing",
+        "status": "manufacturer-drawing"
+      },
+      {
+        "id": "tiny-main-step",
+        "url": "https://files.waveshare.com/upload/9/94/RP2040-Tiny-Step_V1.1.zip",
+        "title": "Waveshare RP2040-Tiny main board STEP",
+        "revision": "V1.1",
+        "status": "manufacturer-cad"
+      },
+      {
+        "id": "tiny-adapter-step",
+        "url": "https://files.waveshare.com/upload/1/1e/RP2040-Tiny-Adapter-Step_V1.1.zip",
+        "title": "Waveshare RP2040-Tiny Adapter STEP",
+        "revision": "V1.1",
+        "status": "manufacturer-cad"
+      },
+      {
+        "id": "tiny-wiki",
+        "url": "https://www.waveshare.com/wiki/RP2040-Tiny",
+        "title": "Waveshare RP2040-Tiny documentation",
+        "revision": "V1.1 cable connection notes",
+        "status": "manufacturer-documentation"
+      },
+      {
+        "id": "tiny-kit-price",
+        "url": "https://hubtronics.in/rp2040-tiny-kit",
+        "title": "Hubtronics RP2040-Tiny kit listing",
+        "revision": "observed 2026-10-18",
+        "status": "supplier-listing-out-of-stock"
+      },
+      {
+        "id": "encoder-drawing",
+        "url": "https://www.bourns.com/docs/product-datasheets/pec11r.pdf",
+        "title": "Bourns PEC11R series drawing and ordering table",
+        "revision": "REV 04/26",
+        "status": "manufacturer-drawing"
+      },
+      {
+        "id": "kingbright-led",
+        "url": "https://www.kingbrightusa.com/images/catalog/spec/APT1608QWF-D.pdf",
+        "title": "Kingbright APT1608QWF/D white LED",
+        "revision": "Ver 13B",
+        "status": "manufacturer-drawing"
+      },
+      {
+        "id": "lumissil-driver",
+        "url": "https://www.lumissil.com/assets/pdf/core/IS31FL3236_DS.pdf",
+        "title": "Lumissil IS31FL3236 36-channel LED driver",
+        "revision": "datasheet",
+        "status": "manufacturer-drawing"
+      },
+      {
+        "id": "adafruit-strip",
+        "url": "https://www.adafruit.com/product/2969",
+        "title": "Adafruit Mini Skinny RGB strip 144 LED/m, white PCB, product 2969",
+        "revision": "observed 2026-10-18",
+        "status": "manufacturer-listing"
+      },
+      {
+        "id": "magnet-drawing",
+        "url": "https://www.kjmagnetics.com/d42-neodymium-disc-magnet",
+        "title": "K and J D42 axial neodymium disc magnet",
+        "revision": "observed 2026-10-18",
+        "status": "manufacturer-drawing"
+      },
+      {
+        "id": "foot-drawing",
+        "url": "https://www.3m.com.my/3M/en_MY/p/d/v000180779/",
+        "title": "3M Bumpon SJ5302 clear protective foot",
+        "revision": "3M ID 7100006189",
+        "status": "manufacturer-listing"
+      },
+      {
+        "id": "screw-drawing",
+        "url": "https://docs.rs-online.com/3718/A700000007946802.pdf",
+        "title": "RS PRO 293-280 M2 x 6 socket cap screw",
+        "revision": "supplier drawing",
+        "status": "manufacturer-drawing"
+      },
+      {
+        "id": "nut-reference",
+        "url": "https://uk.rs-online.com/web/p/hex-nuts/2484551",
+        "title": "RS PRO 248-4551 DIN934 M2 nut",
+        "revision": "supplier listing",
+        "status": "manufacturer-listing"
+      },
+      {
+        "id": "jade-price",
+        "url": "https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-box-jade-switch/",
+        "title": "Meckeys Kailh BOX Jade switches, ten pack",
+        "revision": "observed 2026-10-18",
+        "status": "supplier-listing"
+      },
+      {
+        "id": "ti-buffer",
+        "url": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+        "title": "Texas Instruments SN74AHCT1G125 single buffer",
+        "revision": "datasheet to verify package before manufacture",
+        "status": "manufacturer-documentation"
+      },
+      {
+        "id": "vishay-diode",
+        "url": "https://www.vishay.com/docs/86356/1n4148w.pdf",
+        "title": "Vishay1N4148W small signal diode package drawing, PDFp4",
+        "revision": "Rev1.0 16-Nov-2023; package drawing18-Jan-2022",
+        "status": "manufacturer-drawing"
+      }
+    ],
+    "parts": {
+      "switch": {
+        "name": "BOX Jade standard-height soldered clicky switch",
+        "manufacturer": "Kailh",
+        "sku": "CPG1511F01S11-1",
+        "quantity": 28,
+        "quantityPurchased": 30,
+        "packSize": 10,
+        "unitpriceINR": 28,
+        "priceIncludesTax": true,
+        "supplierURL": "https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-box-jade-switch/",
+        "priceStatus": "verified-listed",
+        "sourceIds": [
+          "kailh-jade",
+          "jade-price"
+        ],
+        "dimensions": {
+          "bodyWidth": 15.6,
+          "bodyDepth": 13.9,
+          "mountBodyWidth": 13.95,
+          "mountBodyDepth": 13.95,
+          "housingRoofAbovePCB": 11.2,
+          "stemProjection": 3.8,
+          "stemRestAbovePCB": 15,
+          "plateSeatAbovePCB": 5,
+          "plateCutoutWidth": 14,
+          "plateCutoutDepth": 14,
+          "plateCutoutCornerRadiusMax": 0.3,
+          "plateThickness": 1.5,
+          "totalTravel": 3.6,
+          "preTravel": 1.8,
+          "widthOverLatches": 14.87,
+          "oppositeBodyHeight": 10.7,
+          "steppedBaseHeight": 0.5,
+          "centerPostDiameter": 3.85,
+          "centerPostProjection": 1.4
+        },
+        "tolerance": {
+          "mountBodyWidth": 0.05,
+          "mountBodyDepth": 0.05,
+          "plateCutoutWidth": 0.05,
+          "plateCutoutDepth": 0.05,
+          "plateThickness": 0.1,
+          "totalTravel": 0.3,
+          "preTravel": 0.3,
+          "widthOverLatches": 0.5,
+          "centerPostDiameterPlus": 0,
+          "centerPostDiameterMinus": 0.1
+        },
+        "dimensionStatus": "sourced",
+        "notes": "Manufacturer PDF actual page4 outer profile; actual page11 plate and loading parameters. 1.50 +/-0.10 is plate thickness, not PCB thickness. Stem cross section and inner BOX guide opening are undimensioned: custom keycap stem/boss fit remains provisional. Price normalized per switch from INR280 ten-pack; purchase three packs, thirty switches. Added source profile dimensions from actual PDFpage4: width over latches14.87+/-0.5, opposite-view bodyheight10.70, centerpost diameter3.85+0/-0.1 and projection1.40. steppedBaseHeight0.50 is the arithmetic difference11.20-10.70 between profile datums, not a separately toleranced manufacturer callout. Undimensioned housing taper, LED window, terminal shapes/lengths and BOX/stem internal geometry remain approximate contours, never measured dimensions."
+      },
+      "stabilizer": {
+        "name": "2u PCB-mounted leveling mechanism",
+        "manufacturer": "CHERRY",
+        "sku": "G99-0742",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "cherry-stab"
+        ],
+        "dimensions": {
+          "supportCenterSpacing": 23.8,
+          "supportOffsetX": 11.9,
+          "pcbThickness": 1.5,
+          "smallHoleDiameter": 3.05,
+          "largeHoleDiameter": 4,
+          "holePairSpacingY": 15.24,
+          "smallHoleOffsetY": -7,
+          "largeHoleOffsetY": 8.24
+        },
+        "tolerance": {
+          "supportCenterSpacing": 0.1,
+          "pcbThickness": 0.14,
+          "smallHoleDiameterPlus": 0.1,
+          "smallHoleDiameterMinus": 0,
+          "largeHoleDiameterPlus": 0.05,
+          "largeHoleDiameterMinus": 0
+        },
+        "dimensionStatus": "sourced",
+        "notes": "Exact catalogue drawing reference, not stocked Indian procurement confirmation. Printed p70 identifies A=23.8 for 2u; p71 PCB pattern. Y signs are local convention and may be mirrored as a whole. Housing details not fully dimensioned; render bracket geometry as approximation. Do not substitute generic +/-12mm cap stem centers."
+      },
+      "controller": {
+        "name": "RP2040-Tiny main controller module",
+        "manufacturer": "Waveshare",
+        "sku": "RP2040-Tiny V1.1",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": 513.3,
+        "priceIncludesTax": true,
+        "supplierURL": "https://hubtronics.in/rp2040-tiny-kit",
+        "priceStatus": "verified-listed",
+        "sourceIds": [
+          "tiny-main-step",
+          "tiny-wiki",
+          "tiny-kit-price"
+        ],
+        "dimensions": {
+          "width": 18,
+          "depth": 23.5,
+          "height": 2.87511
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "Official V1.1 STEP overall height2.875103mm: PCBbottom-1.000003 to highest FPC feature1.8751. Rounded conservative2.87511 model envelope; highest component is FPC connector, likely actuator-open CAD. Other components alone fit about2.05 overall. Detailed original-frame datums/mesh in spec/references/waveshare/controller-datums.json. Price is full kit including adapter and FPC, not charged twice; Hubtronics listing showed zero stock."
+      },
+      "usb_adapter": {
+        "name": "Remote USB-C adapter board",
+        "manufacturer": "Waveshare",
+        "sku": "RP2040-Tiny-Adapter V1.1",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "reference-only",
+        "sourceIds": [
+          "tiny-adapter-step",
+          "tiny-wiki"
+        ],
+        "dimensions": {
+          "pcbWidth": 18,
+          "pcbDepth": 18,
+          "width": 18.02,
+          "depth": 18.02,
+          "height": 4.25
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "Official STEP assembled bbox is not a socket-mouth datum. Extract connector front face/center, PCB surfaces, FPC outlet and mounting features directly from official STEP before claiming flush fit. Included in controller kit; separate price unknown."
+      },
+      "encoder": {
+        "name": "Rotary encoder with push switch",
+        "manufacturer": "Bourns",
+        "sku": "PEC11R-4215F-S0024",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "encoder-drawing"
+        ],
+        "dimensions": {
+          "bodyWidth": 12.5,
+          "bodyDepth": 13.4,
+          "bodyHeight": 6.5,
+          "shaftDiameter": 6,
+          "shaftDFlat": 4.5,
+          "shaftLength": 15,
+          "shaftTipAbovePCB": 21.5,
+          "shaftFlatLength": 7,
+          "bushingLength": 5,
+          "pushTravel": 0.5,
+          "pinProjectionBelowPCB": 3.7,
+          "pinSpan": 14
+        },
+        "tolerance": {
+          "shaftDiameter": 0.1,
+          "shaftDFlatPlus": 0,
+          "shaftDFlatMinus": 0.05
+        },
+        "dimensionStatus": "sourced",
+        "notes": "Use PEC11R-4xxxF-Sxxxx drawing, PDFpage2 bottom; L15 table PDFpage3. 24 detents and 24 pulses. BodyHeight6.5 is PCB mounting datum to bushing shoulder; L15 is shoulder to tip. Default drawing tolerances <10mm +/-0.3, >=10mm +/-0.5 unless called out."
+      },
+      "key_led": {
+        "name": "Top-emitting white per-key LED",
+        "manufacturer": "Kingbright",
+        "sku": "APT1608QWF/D",
+        "quantity": 28,
+        "quantityPurchased": 28,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "kingbright-led"
+        ],
+        "dimensions": {
+          "width": 1.6,
+          "depth": 0.8,
+          "height": 0.75
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "Package drawing sourced. Optical passage through selected BOX Jade and custom cap legend is provisional; no physical brightness or optical validation. Footprint/orientation belongs to future electronics work."
+      },
+      "led_driver": {
+        "name": "36-channel white LED PWM driver",
+        "manufacturer": "Lumissil",
+        "sku": "IS31FL3236-QFLS2-TR",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "lumissil-driver"
+        ],
+        "dimensions": {
+          "width": 5,
+          "depth": 5,
+          "pinCount": 44
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "QFN44 5x5 package. Height/pad layout and support circuit must use package drawing before board manufacture. Model is an unrouted PCB planning representation."
+      },
+      "rgb_strip": {
+        "name": "Base RGB LED strip, white flex PCB",
+        "manufacturer": "Adafruit",
+        "sku": "2969",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "reference-only",
+        "sourceIds": [
+          "adafruit-strip"
+        ],
+        "dimensions": {
+          "width": 10.4,
+          "height": 4.3,
+          "uncasedWidth": 7.5,
+          "pixelPitch": 6.944444444444445,
+          "purchasedLength": 1000
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "144pixels/m, covered strip10.4x4.3mm; bare strip7.5mm wide is different envelope. Installed segment length/count belongs to assembly. Purchase full1m; no Indian INR quote verified. Full-power electrical budget not validated."
+      },
+      "logic_buffer": {
+        "name": "5V RGB data logic buffer",
+        "manufacturer": "Texas Instruments",
+        "sku": "SN74AHCT1G125DBVR",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "ti-buffer"
+        ],
+        "dimensions": {},
+        "tolerance": {},
+        "dimensionStatus": "provisional",
+        "notes": "Selected electrical/package reference only. Exact DBV package and support components need drawing verification; no complete electronics design claimed."
+      },
+      "magnet": {
+        "name": "Captive riser attachment disc magnet",
+        "manufacturer": "K&J Magnetics",
+        "sku": "D42",
+        "quantity": 6,
+        "quantityPurchased": 6,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "magnet-drawing"
+        ],
+        "dimensions": {
+          "diameter": 6.35,
+          "thickness": 3.175
+        },
+        "tolerance": {
+          "diameter": 0.1,
+          "thickness": 0.1
+        },
+        "dimensionStatus": "sourced",
+        "notes": "Axially magnetized N42 NiCuNi. Six total: two in case, two in 4deg bar, two in 7deg bar; only four installed in one tilted assembly. Pocket clearance, positive retaining closure and keyed shear seat are custom assembly decisions. Published thick-steel pull force is not riser retention performance. No verified Indian exact-SKU INR quote."
+      },
+      "rubber_foot": {
+        "name": "Clear hemispherical adhesive contact foot",
+        "manufacturer": "3M",
+        "sku": "SJ5302 / 7100006189",
+        "quantity": 8,
+        "quantityPurchased": 8,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "foot-drawing"
+        ],
+        "dimensions": {
+          "diameter": 7.94,
+          "height": 2.2
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "Four flat-case contacts plus two contacts per alternative bar = eight purchased/modelled. Contact compression, adhesive and printed substrate adhesion remain unverified."
+      },
+      "fastener": {
+        "name": "M2 x 6 socket cap enclosure screw",
+        "manufacturer": "RS PRO",
+        "sku": "293-280",
+        "quantity": 6,
+        "quantityPurchased": 6,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "screw-drawing"
+        ],
+        "dimensions": {
+          "threadDiameter": 2,
+          "threadLength": 6,
+          "headHeight": 2,
+          "headDiameter": 3.8,
+          "threadPitch": 0.4
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "Six total: four enclosure screws plus two USB adapter cradle/clamp screws. Adapter has no mounting screw holes; screws close an external clamp, never pass through invented board holes. Nominal DIN912 head envelope; exact tolerances and final length stack remain unverified."
+      },
+      "fastener_nut": {
+        "name": "M2 captive hex nut",
+        "manufacturer": "RS PRO",
+        "sku": "248-4551",
+        "quantity": 6,
+        "quantityPurchased": 6,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "nut-reference"
+        ],
+        "dimensions": {
+          "threadDiameter": 2,
+          "height": 1.6,
+          "widthAcrossFlats": 4,
+          "threadPitch": 0.4
+        },
+        "tolerance": {},
+        "dimensionStatus": "sourced",
+        "notes": "Six captive nuts for four enclosure screws and two USB cradle/clamp screws. DIN934 nominal width4mm; custom pocket clearances and final length stack remain provisional."
+      },
+      "pcb": {
+        "name": "Unrouted custom carrier PCB",
+        "manufacturer": "Custom",
+        "sku": "PCB",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {
+          "thickness": 1.5
+        },
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "PCBtop datum -5mm relative plateTop0. Thickness1.5 selected model decision compatible with stabilizer; not an inferred Kailh PCB requirement. Outline/holes/supports in assembly spec. No routed/manufacturing PCB."
+      },
+      "plate": {
+        "name": "Custom switch support plate",
+        "manufacturer": "Custom",
+        "sku": "PLATE",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {
+          "thickness": 1.5
+        },
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "PlateTop0; cutouts14x14 with R<=.3 per switch drawing. Mirror black appearance is finish target; manufacturing process/tolerance unknown."
+      },
+      "keycap_1u": {
+        "name": "Custom navy 1u shallow-dish keycap",
+        "manufacturer": "Custom",
+        "sku": "KEYCAP_1U",
+        "quantity": 27,
+        "quantityPurchased": 27,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {
+          "width": 18,
+          "depth": 18,
+          "wallThickness": 0.7
+        },
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "Custom nominal geometry only. White legend inlays; print process/material and crosssocket/BOX internal boss fit unverified. Assembly controls roof/stem/skirt dimensions."
+      },
+      "keycap_2u": {
+        "name": "Custom navy 2u Space keycap",
+        "manufacturer": "Custom",
+        "sku": "KEYCAP_2U",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {
+          "width": 37.05,
+          "depth": 18,
+          "wallThickness": 0.7,
+          "stabilizerCenterSpacing": 23.8
+        },
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "Three sockets: central switch and two stabilizer axes +/-11.9mm. Exact stem socket/fit provisional."
+      },
+      "knob": {
+        "name": "Custom dark navy encoder knob",
+        "manufacturer": "Custom",
+        "sku": "KNOB",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {},
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "Assembly defines diameter/height/shaft seat and clearances; D-shaft fit and positive push clearance provisional."
+      },
+      "case": {
+        "name": "Custom frosted enclosure and mirror black top",
+        "manufacturer": "Custom",
+        "sku": "CASE",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {
+          "width": 128.3,
+          "depth": 109.25
+        },
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "Nominal integration envelope only; root assembly controls outline, walls, mounts and datums. Case price excludes the separately listed 4deg and7deg risers. Printed and optical fit unverified."
+      },
+      "overlay": {
+        "name": "Removable macro legend overlay concept",
+        "manufacturer": "Custom",
+        "sku": "OVERLAY",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {},
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "Top-right dial notch; concept-only material/skin thickness and automatic profile identification remain unimplemented."
+      },
+      "fpc_cable": {
+        "name": "Kit 8-pin USB interconnect flex cable",
+        "manufacturer": "Waveshare",
+        "sku": "RP2040-Tiny-Kit supplied FPC",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "reference-only",
+        "sourceIds": [
+          "tiny-wiki"
+        ],
+        "dimensions": {
+          "length": 150
+        },
+        "tolerance": {},
+        "dimensionStatus": "provisional",
+        "notes": "Manufacturer kit approx15cm cable. Connector pitch/contact side/cable width/thickness and minimum bend radius require official CAD/detail confirmation. Any illustrated bend radius is an explicit assembly assumption. Included in controller kit."
+      },
+      "diode": {
+        "name": "Per-key matrix anti-ghosting diode",
+        "manufacturer": "Vishay",
+        "sku": "1N4148W-E3-08",
+        "quantity": 28,
+        "quantityPurchased": 28,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [
+          "vishay-diode"
+        ],
+        "dimensions": {
+          "bodyLength": 2.7,
+          "bodyWidth": 1.55,
+          "height": 1.175,
+          "leadSpan": 3.7,
+          "leadWidth": 0.55
+        },
+        "tolerance": {
+          "bodyLength": 0.15,
+          "bodyWidth": 0.15,
+          "height": 0.175,
+          "leadSpan": 0.15,
+          "leadWidth": 0.1
+        },
+        "dimensionStatus": "sourced",
+        "notes": "SOD-123 package; one diode per28switches. Package model only; polarity and matrix connections require schematic/routing review. Manufacturer reel ordering quantities are not a small-quantity purchase quote; distributor cut-tape MOQ and spares unresolved."
+      },
+      "riser_4": {
+        "name": "Custom full-width magnetic4degree riser bar",
+        "manufacturer": "Custom",
+        "sku": "RISER-4",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {
+          "angleDegrees": 4
+        },
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "Assembly defines rounded full-width bar dimensions, keyed seat and captive magnet pockets. Separate printed part price; magnets/feet listed elsewhere. One of two alternatives installed at a time, or neither for flat use."
+      },
+      "riser_7": {
+        "name": "Custom full-width magnetic7degree riser bar",
+        "manufacturer": "Custom",
+        "sku": "RISER-7",
+        "quantity": 1,
+        "quantityPurchased": 1,
+        "packSize": 1,
+        "unitpriceINR": null,
+        "priceIncludesTax": null,
+        "supplierURL": null,
+        "priceStatus": "awaiting-quote",
+        "sourceIds": [],
+        "dimensions": {
+          "angleDegrees": 7
+        },
+        "tolerance": {},
+        "dimensionStatus": "custom-nominal",
+        "notes": "Assembly defines rounded full-width bar dimensions, keyed seat and captive magnet pockets. Separate printed part price; magnets/feet listed elsewhere. One of two alternatives installed at a time, or neither for flat use."
+      }
+    },
+    "pricing": {
+      "knownPurchaseSubtotalINR": 1353.3,
+      "subtotalScope": "BOX Jade30pcs at INR840 + controller kit1 at INR513.30 only. Kit listing out of stock. Excludes every null-priced line, shipping, imports and tax not explicitly included; not a project total.",
+      "unknownPricesExcluded": true
+    }
+  },
+  "referenceHashes": {
+    "spec/references/waveshare/adapter-cad-inspection.json": "f51ea3a1194dddfb339c00cf4ee76c5f832b251fb3c5142711f3a669ff55b9ad",
+    "spec/references/waveshare/adapter-datums.json": "5e19b6be103108310adebddc24b51a9e67444cb29ac20773eb5833995a76d78e",
+    "spec/references/waveshare/adapter-source-mesh.json": "b415ec4f9be1633d004a6e135449a975b8a64999cdd396d7170558ce61884634",
+    "spec/references/waveshare/controller-cad-inspection.json": "7420ef96618a044f921e82b2cffe92cb0fdca41b94d3bbd6175bb3ce19219706",
+    "spec/references/waveshare/controller-datums.json": "aba0189662a795b1f4548441385cbb531d23e48e971288861d142ff9803ccd2f",
+    "spec/references/waveshare/controller-source-mesh.json": "56212ca9ecf0fbde593c645ce0da8b99b32d1080eb56670ad1885a5d4c9da43b"
+  },
+  "instances": [
+    {
+      "id": "cap-esc",
+      "partId": "keycap_1u",
+      "keyId": "esc",
+      "origin": [
+        -47.62500000000001,
+        38.1,
+        0
+      ]
+    },
+    {
+      "id": "switch-esc",
+      "partId": "switch",
+      "keyId": "esc",
+      "origin": [
+        -47.62500000000001,
+        38.1,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-esc",
+      "partId": "key_led",
+      "origin": [
+        -47.62500000000001,
+        45.85,
+        -5
+      ]
+    },
+    {
+      "id": "diode-esc",
+      "partId": "diode",
+      "origin": [
+        -53.62500000000001,
+        30.400000000000002,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-1",
+      "partId": "keycap_1u",
+      "keyId": "1",
+      "origin": [
+        -28.575000000000003,
+        38.1,
+        0
+      ]
+    },
+    {
+      "id": "switch-1",
+      "partId": "switch",
+      "keyId": "1",
+      "origin": [
+        -28.575000000000003,
+        38.1,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-1",
+      "partId": "key_led",
+      "origin": [
+        -28.575000000000003,
+        45.85,
+        -5
+      ]
+    },
+    {
+      "id": "diode-1",
+      "partId": "diode",
+      "origin": [
+        -34.575,
+        30.400000000000002,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-2",
+      "partId": "keycap_1u",
+      "keyId": "2",
+      "origin": [
+        -9.525000000000006,
+        38.1,
+        0
+      ]
+    },
+    {
+      "id": "switch-2",
+      "partId": "switch",
+      "keyId": "2",
+      "origin": [
+        -9.525000000000006,
+        38.1,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-2",
+      "partId": "key_led",
+      "origin": [
+        -9.525000000000006,
+        45.85,
+        -5
+      ]
+    },
+    {
+      "id": "diode-2",
+      "partId": "diode",
+      "origin": [
+        -15.525000000000006,
+        30.400000000000002,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-3",
+      "partId": "keycap_1u",
+      "keyId": "3",
+      "origin": [
+        9.524999999999991,
+        38.1,
+        0
+      ]
+    },
+    {
+      "id": "switch-3",
+      "partId": "switch",
+      "keyId": "3",
+      "origin": [
+        9.524999999999991,
+        38.1,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-3",
+      "partId": "key_led",
+      "origin": [
+        9.524999999999991,
+        45.85,
+        -5
+      ]
+    },
+    {
+      "id": "diode-3",
+      "partId": "diode",
+      "origin": [
+        3.5249999999999915,
+        30.400000000000002,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-4",
+      "partId": "keycap_1u",
+      "keyId": "4",
+      "origin": [
+        28.575000000000003,
+        38.1,
+        0
+      ]
+    },
+    {
+      "id": "switch-4",
+      "partId": "switch",
+      "keyId": "4",
+      "origin": [
+        28.575000000000003,
+        38.1,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-4",
+      "partId": "key_led",
+      "origin": [
+        28.575000000000003,
+        45.85,
+        -5
+      ]
+    },
+    {
+      "id": "diode-4",
+      "partId": "diode",
+      "origin": [
+        22.575000000000003,
+        30.400000000000002,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-tab",
+      "partId": "keycap_1u",
+      "keyId": "tab",
+      "origin": [
+        -47.62500000000001,
+        19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-tab",
+      "partId": "switch",
+      "keyId": "tab",
+      "origin": [
+        -47.62500000000001,
+        19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-tab",
+      "partId": "key_led",
+      "origin": [
+        -47.62500000000001,
+        26.799999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-tab",
+      "partId": "diode",
+      "origin": [
+        -53.62500000000001,
+        11.349999999999998,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-q",
+      "partId": "keycap_1u",
+      "keyId": "q",
+      "origin": [
+        -28.575000000000003,
+        19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-q",
+      "partId": "switch",
+      "keyId": "q",
+      "origin": [
+        -28.575000000000003,
+        19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-q",
+      "partId": "key_led",
+      "origin": [
+        -28.575000000000003,
+        26.799999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-q",
+      "partId": "diode",
+      "origin": [
+        -34.575,
+        11.349999999999998,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-w",
+      "partId": "keycap_1u",
+      "keyId": "w",
+      "origin": [
+        -9.525000000000006,
+        19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-w",
+      "partId": "switch",
+      "keyId": "w",
+      "origin": [
+        -9.525000000000006,
+        19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-w",
+      "partId": "key_led",
+      "origin": [
+        -9.525000000000006,
+        26.799999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-w",
+      "partId": "diode",
+      "origin": [
+        -15.525000000000006,
+        11.349999999999998,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-e",
+      "partId": "keycap_1u",
+      "keyId": "e",
+      "origin": [
+        9.524999999999991,
+        19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-e",
+      "partId": "switch",
+      "keyId": "e",
+      "origin": [
+        9.524999999999991,
+        19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-e",
+      "partId": "key_led",
+      "origin": [
+        9.524999999999991,
+        26.799999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-e",
+      "partId": "diode",
+      "origin": [
+        3.5249999999999915,
+        11.349999999999998,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-r",
+      "partId": "keycap_1u",
+      "keyId": "r",
+      "origin": [
+        28.575000000000003,
+        19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-r",
+      "partId": "switch",
+      "keyId": "r",
+      "origin": [
+        28.575000000000003,
+        19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-r",
+      "partId": "key_led",
+      "origin": [
+        28.575000000000003,
+        26.799999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-r",
+      "partId": "diode",
+      "origin": [
+        22.575000000000003,
+        11.349999999999998,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-t",
+      "partId": "keycap_1u",
+      "keyId": "t",
+      "origin": [
+        47.625,
+        19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-t",
+      "partId": "switch",
+      "keyId": "t",
+      "origin": [
+        47.625,
+        19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-t",
+      "partId": "key_led",
+      "origin": [
+        47.625,
+        26.799999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-t",
+      "partId": "diode",
+      "origin": [
+        41.625,
+        11.349999999999998,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-caps",
+      "partId": "keycap_1u",
+      "keyId": "caps",
+      "origin": [
+        -47.62500000000001,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "switch-caps",
+      "partId": "switch",
+      "keyId": "caps",
+      "origin": [
+        -47.62500000000001,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-caps",
+      "partId": "key_led",
+      "origin": [
+        -47.62500000000001,
+        7.75,
+        -5
+      ]
+    },
+    {
+      "id": "diode-caps",
+      "partId": "diode",
+      "origin": [
+        -53.62500000000001,
+        -7.7,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-a",
+      "partId": "keycap_1u",
+      "keyId": "a",
+      "origin": [
+        -28.575000000000003,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "switch-a",
+      "partId": "switch",
+      "keyId": "a",
+      "origin": [
+        -28.575000000000003,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-a",
+      "partId": "key_led",
+      "origin": [
+        -28.575000000000003,
+        7.75,
+        -5
+      ]
+    },
+    {
+      "id": "diode-a",
+      "partId": "diode",
+      "origin": [
+        -34.575,
+        -7.7,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-s",
+      "partId": "keycap_1u",
+      "keyId": "s",
+      "origin": [
+        -9.525000000000006,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "switch-s",
+      "partId": "switch",
+      "keyId": "s",
+      "origin": [
+        -9.525000000000006,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-s",
+      "partId": "key_led",
+      "origin": [
+        -9.525000000000006,
+        7.75,
+        -5
+      ]
+    },
+    {
+      "id": "diode-s",
+      "partId": "diode",
+      "origin": [
+        -15.525000000000006,
+        -7.7,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-d",
+      "partId": "keycap_1u",
+      "keyId": "d",
+      "origin": [
+        9.524999999999991,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "switch-d",
+      "partId": "switch",
+      "keyId": "d",
+      "origin": [
+        9.524999999999991,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-d",
+      "partId": "key_led",
+      "origin": [
+        9.524999999999991,
+        7.75,
+        -5
+      ]
+    },
+    {
+      "id": "diode-d",
+      "partId": "diode",
+      "origin": [
+        3.5249999999999915,
+        -7.7,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-f",
+      "partId": "keycap_1u",
+      "keyId": "f",
+      "origin": [
+        28.575000000000003,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "switch-f",
+      "partId": "switch",
+      "keyId": "f",
+      "origin": [
+        28.575000000000003,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-f",
+      "partId": "key_led",
+      "origin": [
+        28.575000000000003,
+        7.75,
+        -5
+      ]
+    },
+    {
+      "id": "diode-f",
+      "partId": "diode",
+      "origin": [
+        22.575000000000003,
+        -7.7,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-g",
+      "partId": "keycap_1u",
+      "keyId": "g",
+      "origin": [
+        47.625,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "switch-g",
+      "partId": "switch",
+      "keyId": "g",
+      "origin": [
+        47.625,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-g",
+      "partId": "key_led",
+      "origin": [
+        47.625,
+        7.75,
+        -5
+      ]
+    },
+    {
+      "id": "diode-g",
+      "partId": "diode",
+      "origin": [
+        41.625,
+        -7.7,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-shift",
+      "partId": "keycap_1u",
+      "keyId": "shift",
+      "origin": [
+        -47.62500000000001,
+        -19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-shift",
+      "partId": "switch",
+      "keyId": "shift",
+      "origin": [
+        -47.62500000000001,
+        -19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-shift",
+      "partId": "key_led",
+      "origin": [
+        -47.62500000000001,
+        -11.299999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-shift",
+      "partId": "diode",
+      "origin": [
+        -53.62500000000001,
+        -26.749999999999996,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-z",
+      "partId": "keycap_1u",
+      "keyId": "z",
+      "origin": [
+        -28.575000000000003,
+        -19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-z",
+      "partId": "switch",
+      "keyId": "z",
+      "origin": [
+        -28.575000000000003,
+        -19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-z",
+      "partId": "key_led",
+      "origin": [
+        -28.575000000000003,
+        -11.299999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-z",
+      "partId": "diode",
+      "origin": [
+        -34.575,
+        -26.749999999999996,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-x",
+      "partId": "keycap_1u",
+      "keyId": "x",
+      "origin": [
+        -9.525000000000006,
+        -19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-x",
+      "partId": "switch",
+      "keyId": "x",
+      "origin": [
+        -9.525000000000006,
+        -19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-x",
+      "partId": "key_led",
+      "origin": [
+        -9.525000000000006,
+        -11.299999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-x",
+      "partId": "diode",
+      "origin": [
+        -15.525000000000006,
+        -26.749999999999996,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-c",
+      "partId": "keycap_1u",
+      "keyId": "c",
+      "origin": [
+        9.524999999999991,
+        -19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-c",
+      "partId": "switch",
+      "keyId": "c",
+      "origin": [
+        9.524999999999991,
+        -19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-c",
+      "partId": "key_led",
+      "origin": [
+        9.524999999999991,
+        -11.299999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-c",
+      "partId": "diode",
+      "origin": [
+        3.5249999999999915,
+        -26.749999999999996,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-v",
+      "partId": "keycap_1u",
+      "keyId": "v",
+      "origin": [
+        28.575000000000003,
+        -19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-v",
+      "partId": "switch",
+      "keyId": "v",
+      "origin": [
+        28.575000000000003,
+        -19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-v",
+      "partId": "key_led",
+      "origin": [
+        28.575000000000003,
+        -11.299999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-v",
+      "partId": "diode",
+      "origin": [
+        22.575000000000003,
+        -26.749999999999996,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-b",
+      "partId": "keycap_1u",
+      "keyId": "b",
+      "origin": [
+        47.625,
+        -19.049999999999997,
+        0
+      ]
+    },
+    {
+      "id": "switch-b",
+      "partId": "switch",
+      "keyId": "b",
+      "origin": [
+        47.625,
+        -19.049999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-b",
+      "partId": "key_led",
+      "origin": [
+        47.625,
+        -11.299999999999997,
+        -5
+      ]
+    },
+    {
+      "id": "diode-b",
+      "partId": "diode",
+      "origin": [
+        41.625,
+        -26.749999999999996,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-ctrl",
+      "partId": "keycap_1u",
+      "keyId": "ctrl",
+      "origin": [
+        -47.62500000000001,
+        -38.10000000000001,
+        0
+      ]
+    },
+    {
+      "id": "switch-ctrl",
+      "partId": "switch",
+      "keyId": "ctrl",
+      "origin": [
+        -47.62500000000001,
+        -38.10000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-ctrl",
+      "partId": "key_led",
+      "origin": [
+        -47.62500000000001,
+        -30.35000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "diode-ctrl",
+      "partId": "diode",
+      "origin": [
+        -53.62500000000001,
+        -45.80000000000001,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-alt",
+      "partId": "keycap_1u",
+      "keyId": "alt",
+      "origin": [
+        -28.575000000000003,
+        -38.10000000000001,
+        0
+      ]
+    },
+    {
+      "id": "switch-alt",
+      "partId": "switch",
+      "keyId": "alt",
+      "origin": [
+        -28.575000000000003,
+        -38.10000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-alt",
+      "partId": "key_led",
+      "origin": [
+        -28.575000000000003,
+        -30.35000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "diode-alt",
+      "partId": "diode",
+      "origin": [
+        -34.575,
+        -45.80000000000001,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-space",
+      "partId": "keycap_2u",
+      "keyId": "space",
+      "origin": [
+        0,
+        -38.10000000000001,
+        0
+      ]
+    },
+    {
+      "id": "switch-space",
+      "partId": "switch",
+      "keyId": "space",
+      "origin": [
+        0,
+        -38.10000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-space",
+      "partId": "key_led",
+      "origin": [
+        0,
+        -30.35000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "diode-space",
+      "partId": "diode",
+      "origin": [
+        -6,
+        -45.80000000000001,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-fn",
+      "partId": "keycap_1u",
+      "keyId": "fn",
+      "origin": [
+        28.575000000000003,
+        -38.10000000000001,
+        0
+      ]
+    },
+    {
+      "id": "switch-fn",
+      "partId": "switch",
+      "keyId": "fn",
+      "origin": [
+        28.575000000000003,
+        -38.10000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-fn",
+      "partId": "key_led",
+      "origin": [
+        28.575000000000003,
+        -30.35000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "diode-fn",
+      "partId": "diode",
+      "origin": [
+        22.575000000000003,
+        -45.80000000000001,
+        -7.15
+      ]
+    },
+    {
+      "id": "cap-5",
+      "partId": "keycap_1u",
+      "keyId": "5",
+      "origin": [
+        47.625,
+        -38.10000000000001,
+        0
+      ]
+    },
+    {
+      "id": "switch-5",
+      "partId": "switch",
+      "keyId": "5",
+      "origin": [
+        47.625,
+        -38.10000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "key-led-5",
+      "partId": "key_led",
+      "origin": [
+        47.625,
+        -30.35000000000001,
+        -5
+      ]
+    },
+    {
+      "id": "diode-5",
+      "partId": "diode",
+      "origin": [
+        41.625,
+        -45.80000000000001,
+        -7.15
+      ]
+    },
+    {
+      "id": "encoder",
+      "partId": "encoder",
+      "origin": [
+        47.625,
+        38.1,
+        -5
+      ]
+    },
+    {
+      "id": "knob",
+      "partId": "knob",
+      "origin": [
+        47.625,
+        38.1,
+        8.5
+      ]
+    },
+    {
+      "id": "controller",
+      "partId": "controller",
+      "origin": [
+        -25,
+        8,
+        -16
+      ]
+    },
+    {
+      "id": "usb-adapter",
+      "partId": "usb_adapter",
+      "origin": [
+        45.15996087,
+        44.993277140000004,
+        -13
+      ]
+    },
+    {
+      "id": "white-driver",
+      "partId": "led_driver",
+      "origin": [
+        -12,
+        -3,
+        -7.5
+      ]
+    },
+    {
+      "id": "logic-buffer",
+      "partId": "logic_buffer",
+      "origin": [
+        -5,
+        -5,
+        -7.95
+      ]
+    }
+  ],
+  "geometryHash": "825c3c4eab495d1b896d61a9102a60e4e80efe6e2b686f5e14f7f0e5f52cc3b4"
+}

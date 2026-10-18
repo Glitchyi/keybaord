@@ -1,0 +1,79 @@
+{
+  "sourceSpecHash": "f3b01f1ca1fa3146d8b8418fa5d1a24e8a6f81fbbec2552a7b0e1b603857a1a7",
+  "geometryHash": "825c3c4eab495d1b896d61a9102a60e4e80efe6e2b686f5e14f7f0e5f52cc3b4",
+  "builtMeshHash": "546886520d0ff51f6f55593911fa9d8add9793c6ddc106194c332756e581ba2d",
+  "complete": true,
+  "files": {
+    "assembled.png": {
+      "sha256": "6c62e0c806ae015cf62458a84dda6de769f593d8505347b25aaa9901df7ffcfb",
+      "bytes": 1966368,
+      "width": 1600,
+      "height": 1200
+    },
+    "underside.png": {
+      "sha256": "12e4e41ff418785676c999c60700595b2ebb1e2352ec33c93d829412d2a472b6",
+      "bytes": 1992287,
+      "width": 1600,
+      "height": 1200
+    },
+    "section.png": {
+      "sha256": "c196e012bfbfc1be6f7ddc471c941fa6b99c81443c33a43d1c112774c435f9a5",
+      "bytes": 1910372,
+      "width": 1600,
+      "height": 1200
+    },
+    "rear-usb.png": {
+      "sha256": "5e1579a84450240440b47dfec3d4de643e3b017ff0853e2eb4d5d5bab510f376",
+      "bytes": 1932854,
+      "width": 1600,
+      "height": 1200
+    },
+    "assembly.mp4": {
+      "sha256": "95bad489c2cfe6451b7d866359f02db34f086c222853c68a5852563e0afdf4a6",
+      "bytes": 1295306,
+      "codec_name": "h264",
+      "width": 960,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "nb_frames": "288",
+      "duration": 12.0,
+      "fps": 24
+    },
+    "switch-motion.mp4": {
+      "sha256": "03523e4f7a16380874cfd854c8be5ff6754e2ca96586425d5bcfe1cd923c7153",
+      "bytes": 127015,
+      "codec_name": "h264",
+      "width": 960,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "nb_frames": "96",
+      "duration": 4.0,
+      "fps": 24
+    },
+    "glow.mp4": {
+      "sha256": "5ef73b168e8ba10365111e3d50c71d6a209e8ad1ef6e6eae706dc9e9d6738f1a",
+      "bytes": 268609,
+      "codec_name": "h264",
+      "width": 960,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "nb_frames": "192",
+      "duration": 8.0,
+      "fps": 24
+    },
+    "keypad-fit-v1.blend": {
+      "sha256": "dd4a10bb4080c359d5a812eb6291836e775554f36ef8e52b810b120170a7879c",
+      "bytes": 2984356
+    }
+  },
+  "outputSHA256": {
+    "assembled.png": "6c62e0c806ae015cf62458a84dda6de769f593d8505347b25aaa9901df7ffcfb",
+    "underside.png": "12e4e41ff418785676c999c60700595b2ebb1e2352ec33c93d829412d2a472b6",
+    "section.png": "c196e012bfbfc1be6f7ddc471c941fa6b99c81443c33a43d1c112774c435f9a5",
+    "rear-usb.png": "5e1579a84450240440b47dfec3d4de643e3b017ff0853e2eb4d5d5bab510f376",
+    "assembly.mp4": "95bad489c2cfe6451b7d866359f02db34f086c222853c68a5852563e0afdf4a6",
+    "switch-motion.mp4": "03523e4f7a16380874cfd854c8be5ff6754e2ca96586425d5bcfe1cd923c7153",
+    "glow.mp4": "5ef73b168e8ba10365111e3d50c71d6a209e8ad1ef6e6eae706dc9e9d6738f1a"
+  },
+  "decodedAllClips": true
+}

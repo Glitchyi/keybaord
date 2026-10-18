@@ -1,0 +1,19 @@
+{
+  "sourceSpecHash": "f3b01f1ca1fa3146d8b8418fa5d1a24e8a6f81fbbec2552a7b0e1b603857a1a7",
+  "geometryHash": "825c3c4eab495d1b896d61a9102a60e4e80efe6e2b686f5e14f7f0e5f52cc3b4",
+  "builtMeshHash": "546886520d0ff51f6f55593911fa9d8add9793c6ddc106194c332756e581ba2d",
+  "hashesChecked": [
+    "assembled.png",
+    "underside.png",
+    "section.png",
+    "rear-usb.png",
+    "assembly.mp4",
+    "switch-motion.mp4",
+    "glow.mp4",
+    "keypad-fit-v1.blend"
+  ],
+  "allMP4Decoded": true,
+  "allNativeChecksPassed": true,
+  "allClipFramesInside": true,
+  "checkedAtUTC": "2026-10-18T10:03:10.631502+00:00"
+}

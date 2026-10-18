@@ -1,0 +1,4 @@
+frames/
+*.log
+__pycache__/
+preview.png

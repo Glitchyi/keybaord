@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "currency": "INR",
+  "priceDate": "2026-10-18",
+  "scope": "Drawing-based parts model and preliminary purchase BOM; not a manufacturing release or purchase authorization.",
+  "sources": [
+    {
+      "id": "kailh-jade",
+      "url": "https://cdn-shop.adafruit.com/product-files/5149/BOX_Jade.pdf",
+      "title": "Kailh BOX Jade CPG1511F01S11-1 specification",
+      "revision": "Rev B KH-PS1803-34",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "cherry-stab",
+      "url": "https://datasheet.octopart.com/0G990742-Cherry-datasheet-26580244.pdf",
+      "title": "CHERRY Keymodule MX catalogue, printed pages 70-71",
+      "revision": "catalogue drawing",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "tiny-main-step",
+      "url": "https://files.waveshare.com/upload/9/94/RP2040-Tiny-Step_V1.1.zip",
+      "title": "Waveshare RP2040-Tiny main board STEP",
+      "revision": "V1.1",
+      "status": "manufacturer-cad"
+    },
+    {
+      "id": "tiny-adapter-step",
+      "url": "https://files.waveshare.com/upload/1/1e/RP2040-Tiny-Adapter-Step_V1.1.zip",
+      "title": "Waveshare RP2040-Tiny Adapter STEP",
+      "revision": "V1.1",
+      "status": "manufacturer-cad"
+    },
+    {
+      "id": "tiny-wiki",
+      "url": "https://www.waveshare.com/wiki/RP2040-Tiny",
+      "title": "Waveshare RP2040-Tiny documentation",
+      "revision": "V1.1 cable connection notes",
+      "status": "manufacturer-documentation"
+    },
+    {
+      "id": "tiny-kit-price",
+      "url": "https://hubtronics.in/rp2040-tiny-kit",
+      "title": "Hubtronics RP2040-Tiny kit listing",
+      "revision": "observed 2026-10-18",
+      "status": "supplier-listing-out-of-stock"
+    },
+    {
+      "id": "encoder-drawing",
+      "url": "https://www.bourns.com/docs/product-datasheets/pec11r.pdf",
+      "title": "Bourns PEC11R series drawing and ordering table",
+      "revision": "REV 04/26",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "kingbright-led",
+      "url": "https://www.kingbrightusa.com/images/catalog/spec/APT1608QWF-D.pdf",
+      "title": "Kingbright APT1608QWF/D white LED",
+      "revision": "Ver 13B",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "lumissil-driver",
+      "url": "https://www.lumissil.com/assets/pdf/core/IS31FL3236_DS.pdf",
+      "title": "Lumissil IS31FL3236 36-channel LED driver",
+      "revision": "datasheet",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "adafruit-strip",
+      "url": "https://www.adafruit.com/product/2969",
+      "title": "Adafruit Mini Skinny RGB strip 144 LED/m, white PCB, product 2969",
+      "revision": "observed 2026-10-18",
+      "status": "manufacturer-listing"
+    },
+    {
+      "id": "magnet-drawing",
+      "url": "https://www.kjmagnetics.com/d42-neodymium-disc-magnet",
+      "title": "K and J D42 axial neodymium disc magnet",
+      "revision": "observed 2026-10-18",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "foot-drawing",
+      "url": "https://www.3m.com.my/3M/en_MY/p/d/v000180779/",
+      "title": "3M Bumpon SJ5302 clear protective foot",
+      "revision": "3M ID 7100006189",
+      "status": "manufacturer-listing"
+    },
+    {
+      "id": "screw-drawing",
+      "url": "https://docs.rs-online.com/3718/A700000007946802.pdf",
+      "title": "RS PRO 293-280 M2 x 6 socket cap screw",
+      "revision": "supplier drawing",
+      "status": "manufacturer-drawing"
+    },
+    {
+      "id": "nut-reference",
+      "url": "https://uk.rs-online.com/web/p/hex-nuts/2484551",
+      "title": "RS PRO 248-4551 DIN934 M2 nut",
+      "revision": "supplier listing",
+      "status": "manufacturer-listing"
+    },
+    {
+      "id": "jade-price",
+      "url": "https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-box-jade-switch/",
+      "title": "Meckeys Kailh BOX Jade switches, ten pack",
+      "revision": "observed 2026-10-18",
+      "status": "supplier-listing"
+    },
+    {
+      "id": "ti-buffer",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+      "title": "Texas Instruments SN74AHCT1G125 single buffer",
+      "revision": "datasheet to verify package before manufacture",
+      "status": "manufacturer-documentation"
+    },
+    {
+      "id": "vishay-diode",
+      "url": "https://www.vishay.com/docs/86356/1n4148w.pdf",
+      "title": "Vishay1N4148W small signal diode package drawing, PDFp4",
+      "revision": "Rev1.0 16-Nov-2023; package drawing18-Jan-2022",
+      "status": "manufacturer-drawing"
+    }
+  ],
+  "parts": {
+    "switch": {
+      "name": "BOX Jade standard-height soldered clicky switch",
+      "manufacturer": "Kailh",
+      "sku": "CPG1511F01S11-1",
+      "quantity": 28,
+      "quantityPurchased": 30,
+      "packSize": 10,
+      "unitpriceINR": 28,
+      "priceIncludesTax": true,
+      "supplierURL": "https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-box-jade-switch/",
+      "priceStatus": "verified-listed",
+      "sourceIds": [
+        "kailh-jade",
+        "jade-price"
+      ],
+      "dimensions": {
+        "bodyWidth": 15.6,
+        "bodyDepth": 13.9,
+        "mountBodyWidth": 13.95,
+        "mountBodyDepth": 13.95,
+        "housingRoofAbovePCB": 11.2,
+        "stemProjection": 3.8,
+        "stemRestAbovePCB": 15.0,
+        "plateSeatAbovePCB": 5.0,
+        "plateCutoutWidth": 14.0,
+        "plateCutoutDepth": 14.0,
+        "plateCutoutCornerRadiusMax": 0.3,
+        "plateThickness": 1.5,
+        "totalTravel": 3.6,
+        "preTravel": 1.8,
+        "widthOverLatches": 14.87,
+        "oppositeBodyHeight": 10.7,
+        "steppedBaseHeight": 0.5,
+        "centerPostDiameter": 3.85,
+        "centerPostProjection": 1.4
+      },
+      "tolerance": {
+        "mountBodyWidth": 0.05,
+        "mountBodyDepth": 0.05,
+        "plateCutoutWidth": 0.05,
+        "plateCutoutDepth": 0.05,
+        "plateThickness": 0.1,
+        "totalTravel": 0.3,
+        "preTravel": 0.3,
+        "widthOverLatches": 0.5,
+        "centerPostDiameterPlus": 0,
+        "centerPostDiameterMinus": 0.1
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Manufacturer PDF actual page4 outer profile; actual page11 plate and loading parameters. 1.50 +/-0.10 is plate thickness, not PCB thickness. Stem cross section and inner BOX guide opening are undimensioned: custom keycap stem/boss fit remains provisional. Price normalized per switch from INR280 ten-pack; purchase three packs, thirty switches. Added source profile dimensions from actual PDFpage4: width over latches14.87+/-0.5, opposite-view bodyheight10.70, centerpost diameter3.85+0/-0.1 and projection1.40. steppedBaseHeight0.50 is the arithmetic difference11.20-10.70 between profile datums, not a separately toleranced manufacturer callout. Undimensioned housing taper, LED window, terminal shapes/lengths and BOX/stem internal geometry remain approximate contours, never measured dimensions."
+    },
+    "stabilizer": {
+      "name": "2u PCB-mounted leveling mechanism",
+      "manufacturer": "CHERRY",
+      "sku": "G99-0742",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "cherry-stab"
+      ],
+      "dimensions": {
+        "supportCenterSpacing": 23.8,
+        "supportOffsetX": 11.9,
+        "pcbThickness": 1.5,
+        "smallHoleDiameter": 3.05,
+        "largeHoleDiameter": 4.0,
+        "holePairSpacingY": 15.24,
+        "smallHoleOffsetY": -7.0,
+        "largeHoleOffsetY": 8.24
+      },
+      "tolerance": {
+        "supportCenterSpacing": 0.1,
+        "pcbThickness": 0.14,
+        "smallHoleDiameterPlus": 0.1,
+        "smallHoleDiameterMinus": 0,
+        "largeHoleDiameterPlus": 0.05,
+        "largeHoleDiameterMinus": 0
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Exact catalogue drawing reference, not stocked Indian procurement confirmation. Printed p70 identifies A=23.8 for 2u; p71 PCB pattern. Y signs are local convention and may be mirrored as a whole. Housing details not fully dimensioned; render bracket geometry as approximation. Do not substitute generic +/-12mm cap stem centers."
+    },
+    "controller": {
+      "name": "RP2040-Tiny main controller module",
+      "manufacturer": "Waveshare",
+      "sku": "RP2040-Tiny V1.1",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": 513.3,
+      "priceIncludesTax": true,
+      "supplierURL": "https://hubtronics.in/rp2040-tiny-kit",
+      "priceStatus": "verified-listed",
+      "sourceIds": [
+        "tiny-main-step",
+        "tiny-wiki",
+        "tiny-kit-price"
+      ],
+      "dimensions": {
+        "width": 18.0,
+        "depth": 23.5,
+        "height": 2.87511
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Official V1.1 STEP overall height2.875103mm: PCBbottom-1.000003 to highest FPC feature1.8751. Rounded conservative2.87511 model envelope; highest component is FPC connector, likely actuator-open CAD. Other components alone fit about2.05 overall. Detailed original-frame datums/mesh in spec/references/waveshare/controller-datums.json. Price is full kit including adapter and FPC, not charged twice; Hubtronics listing showed zero stock."
+    },
+    "usb_adapter": {
+      "name": "Remote USB-C adapter board",
+      "manufacturer": "Waveshare",
+      "sku": "RP2040-Tiny-Adapter V1.1",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "reference-only",
+      "sourceIds": [
+        "tiny-adapter-step",
+        "tiny-wiki"
+      ],
+      "dimensions": {
+        "pcbWidth": 18.0,
+        "pcbDepth": 18.0,
+        "width": 18.02,
+        "depth": 18.02,
+        "height": 4.25
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Official STEP assembled bbox is not a socket-mouth datum. Extract connector front face/center, PCB surfaces, FPC outlet and mounting features directly from official STEP before claiming flush fit. Included in controller kit; separate price unknown."
+    },
+    "encoder": {
+      "name": "Rotary encoder with push switch",
+      "manufacturer": "Bourns",
+      "sku": "PEC11R-4215F-S0024",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "encoder-drawing"
+      ],
+      "dimensions": {
+        "bodyWidth": 12.5,
+        "bodyDepth": 13.4,
+        "bodyHeight": 6.5,
+        "shaftDiameter": 6.0,
+        "shaftDFlat": 4.5,
+        "shaftLength": 15.0,
+        "shaftTipAbovePCB": 21.5,
+        "shaftFlatLength": 7.0,
+        "bushingLength": 5.0,
+        "pushTravel": 0.5,
+        "pinProjectionBelowPCB": 3.7,
+        "pinSpan": 14.0
+      },
+      "tolerance": {
+        "shaftDiameter": 0.1,
+        "shaftDFlatPlus": 0,
+        "shaftDFlatMinus": 0.05
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Use PEC11R-4xxxF-Sxxxx drawing, PDFpage2 bottom; L15 table PDFpage3. 24 detents and 24 pulses. BodyHeight6.5 is PCB mounting datum to bushing shoulder; L15 is shoulder to tip. Default drawing tolerances <10mm +/-0.3, >=10mm +/-0.5 unless called out."
+    },
+    "key_led": {
+      "name": "Top-emitting white per-key LED",
+      "manufacturer": "Kingbright",
+      "sku": "APT1608QWF/D",
+      "quantity": 28,
+      "quantityPurchased": 28,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "kingbright-led"
+      ],
+      "dimensions": {
+        "width": 1.6,
+        "depth": 0.8,
+        "height": 0.75
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Package drawing sourced. Optical passage through selected BOX Jade and custom cap legend is provisional; no physical brightness or optical validation. Footprint/orientation belongs to future electronics work."
+    },
+    "led_driver": {
+      "name": "36-channel white LED PWM driver",
+      "manufacturer": "Lumissil",
+      "sku": "IS31FL3236-QFLS2-TR",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "lumissil-driver"
+      ],
+      "dimensions": {
+        "width": 5.0,
+        "depth": 5.0,
+        "pinCount": 44
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "QFN44 5x5 package. Height/pad layout and support circuit must use package drawing before board manufacture. Model is an unrouted PCB planning representation."
+    },
+    "rgb_strip": {
+      "name": "Base RGB LED strip, white flex PCB",
+      "manufacturer": "Adafruit",
+      "sku": "2969",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "reference-only",
+      "sourceIds": [
+        "adafruit-strip"
+      ],
+      "dimensions": {
+        "width": 10.4,
+        "height": 4.3,
+        "uncasedWidth": 7.5,
+        "pixelPitch": 6.944444444444445,
+        "purchasedLength": 1000
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "144pixels/m, covered strip10.4x4.3mm; bare strip7.5mm wide is different envelope. Installed segment length/count belongs to assembly. Purchase full1m; no Indian INR quote verified. Full-power electrical budget not validated."
+    },
+    "logic_buffer": {
+      "name": "5V RGB data logic buffer",
+      "manufacturer": "Texas Instruments",
+      "sku": "SN74AHCT1G125DBVR",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "ti-buffer"
+      ],
+      "dimensions": {},
+      "tolerance": {},
+      "dimensionStatus": "provisional",
+      "notes": "Selected electrical/package reference only. Exact DBV package and support components need drawing verification; no complete electronics design claimed."
+    },
+    "magnet": {
+      "name": "Captive riser attachment disc magnet",
+      "manufacturer": "K&J Magnetics",
+      "sku": "D42",
+      "quantity": 6,
+      "quantityPurchased": 6,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "magnet-drawing"
+      ],
+      "dimensions": {
+        "diameter": 6.35,
+        "thickness": 3.175
+      },
+      "tolerance": {
+        "diameter": 0.1,
+        "thickness": 0.1
+      },
+      "dimensionStatus": "sourced",
+      "notes": "Axially magnetized N42 NiCuNi. Six total: two in case, two in 4deg bar, two in 7deg bar; only four installed in one tilted assembly. Pocket clearance, positive retaining closure and keyed shear seat are custom assembly decisions. Published thick-steel pull force is not riser retention performance. No verified Indian exact-SKU INR quote."
+    },
+    "rubber_foot": {
+      "name": "Clear hemispherical adhesive contact foot",
+      "manufacturer": "3M",
+      "sku": "SJ5302 / 7100006189",
+      "quantity": 8,
+      "quantityPurchased": 8,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "foot-drawing"
+      ],
+      "dimensions": {
+        "diameter": 7.94,
+        "height": 2.2
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Four flat-case contacts plus two contacts per alternative bar = eight purchased/modelled. Contact compression, adhesive and printed substrate adhesion remain unverified."
+    },
+    "fastener": {
+      "name": "M2 x 6 socket cap enclosure screw",
+      "manufacturer": "RS PRO",
+      "sku": "293-280",
+      "quantity": 6,
+      "quantityPurchased": 6,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "screw-drawing"
+      ],
+      "dimensions": {
+        "threadDiameter": 2.0,
+        "threadLength": 6.0,
+        "headHeight": 2.0,
+        "headDiameter": 3.8,
+        "threadPitch": 0.4
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Six total: four enclosure screws plus two USB adapter cradle/clamp screws. Adapter has no mounting screw holes; screws close an external clamp, never pass through invented board holes. Nominal DIN912 head envelope; exact tolerances and final length stack remain unverified."
+    },
+    "fastener_nut": {
+      "name": "M2 captive hex nut",
+      "manufacturer": "RS PRO",
+      "sku": "248-4551",
+      "quantity": 6,
+      "quantityPurchased": 6,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "nut-reference"
+      ],
+      "dimensions": {
+        "threadDiameter": 2.0,
+        "height": 1.6,
+        "widthAcrossFlats": 4.0,
+        "threadPitch": 0.4
+      },
+      "tolerance": {},
+      "dimensionStatus": "sourced",
+      "notes": "Six captive nuts for four enclosure screws and two USB cradle/clamp screws. DIN934 nominal width4mm; custom pocket clearances and final length stack remain provisional."
+    },
+    "pcb": {
+      "name": "Unrouted custom carrier PCB",
+      "manufacturer": "Custom",
+      "sku": "PCB",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "thickness": 1.5
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "PCBtop datum -5mm relative plateTop0. Thickness1.5 selected model decision compatible with stabilizer; not an inferred Kailh PCB requirement. Outline/holes/supports in assembly spec. No routed/manufacturing PCB."
+    },
+    "plate": {
+      "name": "Custom switch support plate",
+      "manufacturer": "Custom",
+      "sku": "PLATE",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "thickness": 1.5
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "PlateTop0; cutouts14x14 with R<=.3 per switch drawing. Mirror black appearance is finish target; manufacturing process/tolerance unknown."
+    },
+    "keycap_1u": {
+      "name": "Custom navy 1u shallow-dish keycap",
+      "manufacturer": "Custom",
+      "sku": "KEYCAP_1U",
+      "quantity": 27,
+      "quantityPurchased": 27,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "width": 18.0,
+        "depth": 18.0,
+        "wallThickness": 0.7
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Custom nominal geometry only. White legend inlays; print process/material and crosssocket/BOX internal boss fit unverified. Assembly controls roof/stem/skirt dimensions."
+    },
+    "keycap_2u": {
+      "name": "Custom navy 2u Space keycap",
+      "manufacturer": "Custom",
+      "sku": "KEYCAP_2U",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "width": 37.05,
+        "depth": 18.0,
+        "wallThickness": 0.7,
+        "stabilizerCenterSpacing": 23.8
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Three sockets: central switch and two stabilizer axes +/-11.9mm. Exact stem socket/fit provisional."
+    },
+    "knob": {
+      "name": "Custom dark navy encoder knob",
+      "manufacturer": "Custom",
+      "sku": "KNOB",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {},
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Assembly defines diameter/height/shaft seat and clearances; D-shaft fit and positive push clearance provisional."
+    },
+    "case": {
+      "name": "Custom frosted enclosure and mirror black top",
+      "manufacturer": "Custom",
+      "sku": "CASE",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "width": 128.3,
+        "depth": 109.25
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Nominal integration envelope only; root assembly controls outline, walls, mounts and datums. Case price excludes the separately listed 4deg and7deg risers. Printed and optical fit unverified."
+    },
+    "overlay": {
+      "name": "Removable macro legend overlay concept",
+      "manufacturer": "Custom",
+      "sku": "OVERLAY",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {},
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Top-right dial notch; concept-only material/skin thickness and automatic profile identification remain unimplemented."
+    },
+    "fpc_cable": {
+      "name": "Kit 8-pin USB interconnect flex cable",
+      "manufacturer": "Waveshare",
+      "sku": "RP2040-Tiny-Kit supplied FPC",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "reference-only",
+      "sourceIds": [
+        "tiny-wiki"
+      ],
+      "dimensions": {
+        "length": 150.0
+      },
+      "tolerance": {},
+      "dimensionStatus": "provisional",
+      "notes": "Manufacturer kit approx15cm cable. Connector pitch/contact side/cable width/thickness and minimum bend radius require official CAD/detail confirmation. Any illustrated bend radius is an explicit assembly assumption. Included in controller kit."
+    },
+    "diode": {
+      "name": "Per-key matrix anti-ghosting diode",
+      "manufacturer": "Vishay",
+      "sku": "1N4148W-E3-08",
+      "quantity": 28,
+      "quantityPurchased": 28,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [
+        "vishay-diode"
+      ],
+      "dimensions": {
+        "bodyLength": 2.7,
+        "bodyWidth": 1.55,
+        "height": 1.175,
+        "leadSpan": 3.7,
+        "leadWidth": 0.55
+      },
+      "tolerance": {
+        "bodyLength": 0.15,
+        "bodyWidth": 0.15,
+        "height": 0.175,
+        "leadSpan": 0.15,
+        "leadWidth": 0.1
+      },
+      "dimensionStatus": "sourced",
+      "notes": "SOD-123 package; one diode per28switches. Package model only; polarity and matrix connections require schematic/routing review. Manufacturer reel ordering quantities are not a small-quantity purchase quote; distributor cut-tape MOQ and spares unresolved."
+    },
+    "riser_4": {
+      "name": "Custom full-width magnetic4degree riser bar",
+      "manufacturer": "Custom",
+      "sku": "RISER-4",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "angleDegrees": 4
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Assembly defines rounded full-width bar dimensions, keyed seat and captive magnet pockets. Separate printed part price; magnets/feet listed elsewhere. One of two alternatives installed at a time, or neither for flat use."
+    },
+    "riser_7": {
+      "name": "Custom full-width magnetic7degree riser bar",
+      "manufacturer": "Custom",
+      "sku": "RISER-7",
+      "quantity": 1,
+      "quantityPurchased": 1,
+      "packSize": 1,
+      "unitpriceINR": null,
+      "priceIncludesTax": null,
+      "supplierURL": null,
+      "priceStatus": "awaiting-quote",
+      "sourceIds": [],
+      "dimensions": {
+        "angleDegrees": 7
+      },
+      "tolerance": {},
+      "dimensionStatus": "custom-nominal",
+      "notes": "Assembly defines rounded full-width bar dimensions, keyed seat and captive magnet pockets. Separate printed part price; magnets/feet listed elsewhere. One of two alternatives installed at a time, or neither for flat use."
+    }
+  },
+  "pricing": {
+    "knownPurchaseSubtotalINR": 1353.3,
+    "subtotalScope": "BOX Jade30pcs at INR840 + controller kit1 at INR513.30 only. Kit listing out of stock. Excludes every null-priced line, shipping, imports and tax not explicitly included; not a project total.",
+    "unknownPricesExcluded": true
+  }
+}

@@ -2,3 +2,9 @@
 node_modules/
 shots/
 archive/
+
+dist/
+spec/references/tmp/
+design/fit-v1/frames/
+design/fit-v1/*.blend1
+design/fit-v1/validation/

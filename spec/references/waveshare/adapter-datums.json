@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "sourceURL": "https://files.waveshare.com/upload/1/1e/RP2040-Tiny-Adapter-Step_V1.1.zip",
+  "sourceStepSHA256": "4357a7ac0cd4dbe25c549c18b2b95ab483015975e54ca0f037df671a9180a1ec",
+  "sourceCoordinates": "Unmodified Waveshare V1.1 STEP, mm. PCB component top z=0; USB faces +Y.",
+  "pcb": {
+    "bounds": [
+      169.991369,
+      188.008628,
+      106.991371,
+      125.008627,
+      -0.999439,
+      0.0
+    ],
+    "topZ": 0,
+    "bottomZ": -0.9994392,
+    "nominalThickness": 1.0,
+    "mountingScrewHoles": [],
+    "notes": "The STEP PCB has only small plated/pin holes, no screw-sized mounting holes. Use an enclosure cradle/clamp."
+  },
+  "usb": {
+    "stepSolidIndexShell": 32,
+    "componentName": "698b116-264-211",
+    "mouthPlaneY": 124.981722,
+    "outwardNormal": [
+      0,
+      1,
+      0
+    ],
+    "mouthCenter": [
+      178.990038,
+      124.981722,
+      1.669522
+    ],
+    "mouthOuterWidth": 8.94,
+    "mouthOuterHeight": 3.16,
+    "mouthOuterRadius": 1.28,
+    "mouthInnerWidth": 8.54,
+    "mouthInnerHeight": 2.76,
+    "mouthInnerRadius": 1.08,
+    "mouthVerticalStraight": 0.6,
+    "notes": "Computed from the planar front rim face and exact vertices. Do not use full connector bbox midpoint: below-board tabs bias it downward. The narrow split at rim bottom is an intentional shell feature."
+  },
+  "fpc": {
+    "componentName": "Molex 503480-0800",
+    "stepSolidIndex": 33,
+    "bounds": [
+      176.125387,
+      181.825387,
+      107.367881,
+      110.967882,
+      -0.02,
+      1.8751
+    ],
+    "outletDirection": [
+      0,
+      -1,
+      0
+    ],
+    "exitPointProvisional": [
+      178.975387,
+      107.367881,
+      0.5
+    ],
+    "notes": "Outlet direction inferred from component layout. The exact cable-contact plane and neutral-axis height remain provisional. STEP highest feature is likely actuator-open geometry; do not assume closed height from bbox. Minimum bend radius not sourced."
+  },
+  "normalization": {
+    "translate": [
+      -178.99999887,
+      -115.99999914,
+      0
+    ],
+    "description": "Optional board-centered XY frame; keep PCB component topz0. Mouth center normalized[-.00996087,8.98172286,1.669522]. Apply rotation/translation only after this, matching assembly rear-wall normal."
+  },
+  "precision": "Nominal CAD values, not manufacturing tolerances. FPC exitPointProvisional explicitly inferred."
+}

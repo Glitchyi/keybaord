@@ -4,9 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs && node scripts/build.mjs --light",
+    "build": "node scripts/resolve-spec.mjs && node scripts/build.mjs && node scripts/build.mjs --light",
     "audit": "node scripts/build.mjs --audit",
-    "start": "node scripts/serve.mjs"
+    "start": "node scripts/serve.mjs",
+    "spec": "node scripts/resolve-spec.mjs",
+    "test": "node scripts/integration/check-spec.mjs && node scripts/check-web.mjs"
   },
-  "engines": { "node": ">=20.10" }
+  "engines": {
+    "node": ">=20.10"
+  }
 }
