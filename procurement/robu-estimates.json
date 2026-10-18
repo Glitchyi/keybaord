@@ -3,7 +3,7 @@
   "observedAt": "2026-10-18",
   "sourceURL": "https://robu.in/product/industrial-3d-printing/",
   "quoteStatus": "Four completed Robu live calculator estimates; no order or supplier DFM approval",
-  "scope": "Four quote-only custom meshes at quantity one each; separate from frozen fit-v1 BOM subtotal. Shipping and custom finishing unquoted.",
+  "scope": "One keyboard needs one riser only. Current budget uses the 4° bar provisionally; 7° is an alternative. Four original calculator results are retained as evidence. Shipping and custom finishing unquoted.",
   "rows": [
     {
       "id": "riser-4deg",
@@ -80,11 +80,29 @@
     }
   ],
   "notes": [
+    "Current one-riser print budget: ₹4,498 using 4° provisionally. Replacing it with 7° gives ₹5,346; do not buy both bars for one keyboard.",
     "No full keyboard total: keycaps/legends, plate, electronics, PCB, finishing, delivery and manufacturing changes are excluded.",
     "Caps and small retained pieces do not meet current printing rules; a price is not manufacturing approval.",
     "PCB estimate blocked by missing routed Gerbers; Robu form offers 1.6 mm rather than selected 1.5 mm.",
     "Exact electronic parts and delivered prices remain unquoted."
   ],
   "printEstimateSubtotalINR": 6433,
-  "printSubtotalScope": "One lower case, one knob, one 4° and one 7° riser body only; GST included; excludes shipping, cap/legend process, plate, electronics, retention pieces and manufacturing changes."
+  "printSubtotalScope": "One lower case, one knob, one 4° and one 7° riser body only; GST included; excludes shipping, cap/legend process, plate, electronics, retention pieces and manufacturing changes.",
+  "selectedPrintBudget": {
+    "rowIds": [
+      "lower-case",
+      "knob",
+      "riser-4deg"
+    ],
+    "riserId": "riser-4deg",
+    "subtotalINR": 4498,
+    "scope": "One translucent lower case, one knob and one 4° riser body. 4° is provisional for budgeting; 7° replaces it rather than adding another bar. GST included; delivery, finishing, hardware and all other keyboard parts excluded.",
+    "hardwareQuantities": {
+      "riser": 1,
+      "magnet": 4,
+      "rubber_foot": 6,
+      "fastener": 6,
+      "fastener_nut": 6
+    }
+  }
 }

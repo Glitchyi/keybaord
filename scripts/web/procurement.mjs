@@ -24,6 +24,31 @@ export function validateRobuEstimates(data){
   if(!printRows.length||data.rows.some(row=>row.file&&row.priceStatus!=='live-calculator'))throw Error('Print subtotal requires completed calculator estimates for every cost-study model');
   if(Math.abs(printRows.reduce((sum,row)=>sum+row.amountINR,0)-data.printEstimateSubtotalINR)>.005)throw Error('Print subtotal must include calculator rows only; exclude component listings');
  }else if(data.printSubtotalScope!==undefined)throw Error('Print subtotal scope requires an explicit amount');
+ if(data.selectedPrintBudget){
+  const b=data.selectedPrintBudget;
+  if(!Array.isArray(b.rowIds)||new Set(b.rowIds).size!==b.rowIds.length||b.rowIds.length!==3||!nonempty(b.scope))throw Error('Selected print budget needs three distinct scoped parts');
+  const selected=b.rowIds.map(id=>data.rows.find(row=>row.id===id));
+  if(selected.some(row=>!row||row.priceStatus!=='live-calculator'||row.quantity!==1))throw Error('Selected budget requires completed quantity-one calculator rows');
+  if(!b.rowIds.includes('lower-case')||!b.rowIds.includes('knob')||!['riser-4deg','riser-7deg'].includes(b.riserId)||!b.rowIds.includes(b.riserId)||b.rowIds.filter(id=>id.startsWith('riser-')).length!==1)throw Error('One keyboard budget must include exactly one riser');
+  if(!Number.isFinite(b.subtotalINR)||Math.abs(selected.reduce((sum,row)=>sum+row.amountINR,0)-b.subtotalINR)>.005)throw Error('Selected budget subtotal disagrees with included rows');
+  if(b.hardwareQuantities?.riser!==1||b.hardwareQuantities.magnet!==4||b.hardwareQuantities.rubber_foot!==6||b.hardwareQuantities.fastener!==6||b.hardwareQuantities.fastener_nut!==6)throw Error('One-riser hardware quantities are inconsistent');
+ }
  if(!Array.isArray(data.notes)||data.notes.some(note=>!nonempty(note)))throw Error('Robu exclusions must be explicit notes');
+ return data;
+}
+
+export function validateFullKeyboardCost(data){
+ if(data?.schemaVersion!==1||!/^\d{4}-\d{2}-\d{2}$/.test(data.reviewedAt)||!nonempty(data.scope)||!nonempty(data.closingRule))throw Error('Cost audit needs dated scope');
+ if(data.totalINR!==null)throw Error('Incomplete cost audit must not imply a complete total');
+ if(!data.counts||data.counts.riser!==1||data.counts.magnet!==4||data.counts.rubberFoot!==6||data.counts.keycap1u+data.counts.keycap2u!==28||data.counts.switchInstalled!==28||data.counts.switchPurchased<28)throw Error('Cost audit quantities disagree with one keyboard');
+ const ids=new Set();
+ if(!Array.isArray(data.rows)||!data.rows.length||!Array.isArray(data.optional))throw Error('Cost checklist is required');
+ for(const row of data.rows){
+  if(!/^[a-z0-9-]+$/.test(row.id)||ids.has(row.id))throw Error('Duplicate or invalid cost row');ids.add(row.id);
+  for(const field of ['label','quantity','status','required'])if(!nonempty(row[field]))throw Error('Incomplete cost row: '+row.id);
+  if(!Array.isArray(row.sources))throw Error('Cost row source list missing');
+  for(const source of row.sources){if(!nonempty(source.title)||!/^https:\/\//.test(source.url))throw Error('Cost source needs title and HTTPS URL');}
+ }
+ for(const item of data.optional)if(!nonempty(item.label)||!nonempty(item.required))throw Error('Optional costs need explicit scope');
  return data;
 }

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-18",
+  "scope": "One wired 28-key keyboard with one 2u Space, one dial, one rounded magnetic riser, white per-key light and RGB base light. Complete cost is not yet established.",
+  "totalINR": null,
+  "counts": {
+    "switchInstalled": 28,
+    "switchPurchased": 30,
+    "keycap1u": 27,
+    "keycap2u": 1,
+    "stabilizer": 1,
+    "encoder": 1,
+    "riser": 1,
+    "magnet": 4,
+    "rubberFoot": 6,
+    "screw": 6,
+    "nut": 6,
+    "diode": 28,
+    "whiteLED": 28
+  },
+  "rows": [
+    {
+      "id": "printed-bodies",
+      "label": "Case, knob and ONE riser",
+      "quantity": "1 lower case + 1 knob + 1 bar",
+      "status": "Partial estimate",
+      "required": "₹4,498 with 4° provisionally; quote-only meshes, GST included. Heavy frost, navy finish, magnet capture parts, USB clamps and required manufacturing revisions are extra.",
+      "sources": [
+        {
+          "title": "Robu printing service",
+          "url": "https://robu.in/product/industrial-3d-printing/"
+        }
+      ]
+    },
+    {
+      "id": "keycaps",
+      "label": "Navy keycaps and white legends",
+      "quantity": "27 × 1u + 1 × 2u Space",
+      "status": "Process and quote required",
+      "required": "Quote the opaque navy shells AND translucent white legends, finishing, assembly and fit samples. Existing thin walls/inlay interference need revision; a shell print price would not cover the finished caps.",
+      "sources": [
+        {
+          "title": "Robu printing guide",
+          "url": "https://robu.in/3d-printing-guide/"
+        }
+      ]
+    },
+    {
+      "id": "plate",
+      "label": "Glossy black switch plate",
+      "quantity": "1 × 1.5 mm plate",
+      "status": "Quote required",
+      "required": "Separate fabrication, cutouts, tolerances and mirror-black finish. Do not charge the top again as part of the translucent lower case.",
+      "sources": []
+    },
+    {
+      "id": "switches",
+      "label": "Switches and 2u stabilizer",
+      "quantity": "28 switches installed; buy 30; 1 stabilizer set",
+      "status": "Switch listing only",
+      "required": "Three ten-packs of BOX Jade: ₹840 incl GST, rechecked 18 Oct. Exact CHERRY G99-0742 stabilizer price/availability and any purchase pack size remain unquoted.",
+      "sources": [
+        {
+          "title": "Meckeys BOX Jade ten-pack",
+          "url": "https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/kailh-box-jade-switch/"
+        }
+      ]
+    },
+    {
+      "id": "controller",
+      "label": "Controller and remote USB-C",
+      "quantity": "1 complete Waveshare RP2040-Tiny V1.1 kit",
+      "status": "Unavailable listing",
+      "required": "₹513.30 incl GST remains an out-of-stock listing, not a purchasable quote. Includes adapter and FPC cable: do not add those twice. Confirm stock and version or review an alternative.",
+      "sources": [
+        {
+          "title": "Hubtronics kit listing",
+          "url": "https://hubtronics.in/rp2040-tiny-kit"
+        },
+        {
+          "title": "Waveshare kit reference",
+          "url": "https://www.waveshare.com/wiki/RP2040-Tiny"
+        }
+      ]
+    },
+    {
+      "id": "pcb",
+      "label": "Custom carrier PCB and assembly",
+      "quantity": "1 installed; fabrication batch/MOQ unknown",
+      "status": "Design and quote required",
+      "required": "Finish schematic, routed Gerbers/drill files, fabrication notes, assembly BOM and positions. Quote PCB batch, stencil, setup, component sourcing, SMT/THT soldering and test. Resolve 1.5 mm selected PCB versus Robu’s 1.6 mm option before quoting.",
+      "sources": [
+        {
+          "title": "Robu PCB service",
+          "url": "https://robu.in/product/online-pcb-manufacturing-service/"
+        }
+      ]
+    },
+    {
+      "id": "lighting",
+      "label": "White-key and RGB-base electronics",
+      "quantity": "28 white LEDs + 1 driver + 1 buffer; 14 strip pixels installed, buy 1 m",
+      "status": "Quote and circuit design required",
+      "required": "Source Kingbright APT1608QWF/D, IS31FL3236 driver, SN74AHCT1G125DBVR buffer and Adafruit 2969 strip. Quote strip purchase length, not just the fitted segment; confirm driver lifecycle/availability. Verify USB power budget and brightness limits.",
+      "sources": [
+        {
+          "title": "Lumissil driver datasheet",
+          "url": "https://www.lumissil.com/assets/pdf/core/IS31FL3236_DS.pdf"
+        },
+        {
+          "title": "Adafruit 2969 strip",
+          "url": "https://www.adafruit.com/product/2969"
+        }
+      ]
+    },
+    {
+      "id": "support-electronics",
+      "label": "Matrix, encoder and support circuitry",
+      "quantity": "28 diodes + 1 encoder; remaining values/counts TBD",
+      "status": "Incomplete electrical BOM",
+      "required": "Exact Vishay diode and Bourns encoder quotes; driver current-setting resistor, I²C pull-ups, decoupling, strip bulk capacitor/data resistor, buffer bypass, wiring/connectors and test access. Review USB ESD/overcurrent protection and module-provided parts before adding quantities. The ₹224 Robu diode alternative is unapproved and excluded.",
+      "sources": [
+        {
+          "title": "Lumissil typical circuit",
+          "url": "https://www.lumissil.com/assets/pdf/core/IS31FL3236_DS.pdf"
+        },
+        {
+          "title": "Adafruit connections guidance",
+          "url": "https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections"
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "label": "Fasteners, magnets, feet and retention",
+      "quantity": "4 magnets + 6 feet + 6 screws + 6 nuts; 4 closures + 2 USB clamps",
+      "status": "Quote required",
+      "required": "Two magnets in the case and two in the single bar; four case feet and two bar feet. Include capture closures, USB board clamps, compatible adhesive and assembly consumables; supplier packs may exceed installed counts.",
+      "sources": []
+    },
+    {
+      "id": "usb-cable",
+      "label": "External USB data cable",
+      "quantity": "1 cable with connector overmould clearance",
+      "status": "Select and quote",
+      "required": "Kit FPC is internal and does not replace the host data cable. Check the actual plug fits the near-flush opening; do not budget a charge-only cable.",
+      "sources": [
+        {
+          "title": "Waveshare connection reference",
+          "url": "https://www.waveshare.com/wiki/RP2040-Tiny"
+        }
+      ]
+    },
+    {
+      "id": "development-test",
+      "label": "Firmware, Windows helper and verification",
+      "quantity": "1 working keyboard and helper; test samples",
+      "status": "Work and allowances unpriced",
+      "required": "Budget configuration/development, flashing, matrix/encoder/light tests and Windows volume synchronization. Add stem/stabilizer fit, diffuser/legend optical samples, USB insertion and riser retention tests, plus reprints/rework. Separate self-build time from paid assembly/tool costs.",
+      "sources": []
+    },
+    {
+      "id": "landed-cost",
+      "label": "Delivered prototype spend",
+      "quantity": "Every supplier order, MOQ and one-off charge",
+      "status": "Awaiting supplier quotes",
+      "required": "Track installed use versus packs/spares, batch minima, setup/tooling, finishing, assembly, samples, delivery, imports and taxes not already included. Include explicit rework allowance after quotes; no invented percentage or final total.",
+      "sources": []
+    }
+  ],
+  "optional": [
+    {
+      "label": "Macro legend sheets and automatic profile identification",
+      "required": "Quote sheet tooling/material, opaque icon artwork, fitting and durability. NFC/RFID tags, reader/antenna, wiring and detection firmware remain undefined. Separate this add-on cost from the working base keyboard; it remains part of the feature roadmap."
+    },
+    {
+      "label": "RGB per-key alternative",
+      "required": "The current model uses white per-key LEDs plus an RGB base. A per-key RGB comparison needs a separate LED/driver, PCB/power and firmware BOM, rather than assuming it costs the same."
+    },
+    {
+      "label": "Second riser",
+      "required": "7° replaces 4° in the current budget. Keep the second physical bar outside the base purchase; alternative three-body print subtotal ₹5,346."
+    }
+  ],
+  "closingRule": "A full total requires approved manufacturing geometry, a complete electrical BOM, stock-confirmed supplier quotes with quantities/MOQs, finishing and assembly, sample/rework allowances and destination-specific delivery/taxes. Unknown costs stay unquoted, never zero."
+}

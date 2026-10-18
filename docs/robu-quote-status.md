@@ -2,6 +2,12 @@
 
 This procurement check is separate from the frozen fit-v1 geometry and its historical priced subtotal. A listed price, an automatic model estimate and a supplier-reviewed quotation are different evidence. No order or payment is authorized.
 
+## Current one-riser budget
+
+Budget one 4° bar provisionally: lower case ₹3,159 + knob ₹252 + riser ₹1,087 = **₹4,498 including GST**, before delivery, finishes and all other parts. The 7° bar replaces it if selected, making the same three-body subset ₹5,346. The four-upload total ₹6,433 below is preserved quotation evidence, not the current purchasing scope.
+
+One build needs four magnets (two case/two bar) and six feet (four case/two bar), plus six screws and six nuts. Positive magnet closures and USB clamps remain separate unquoted custom pieces. See the [full-keyboard cost audit](full-keyboard-cost-audit.md) for every remaining group.
+
 ## Current results
 
 - Exact purchased parts: see [component listing check](robu-components-2026-10-18.md). Robu lists a packaging-suffix alternative Vishay1N4148W-E3-18 at ₹8 including GST for 1–49:28 would be ₹224 before delivery. It is not yet an approved replacement for -08.
@@ -21,7 +27,7 @@ Robu quotes a15–20 business-day lead time for industrial printing after manufa
 
 ## Enquiry scope
 
-Request one frosted lower case, one glossy black support plate, one 4° and one 7° bar, one knob,27 navy1u caps and one 2u Space with white translucent legends, plus required custom retention pieces. Magnets, rubber feet, screws and nuts are separate purchased items. Request thin-wall/small-feature review before accepting this design. Ask for quantities and unit/line prices, GST, delivery, lead time, material identity and a list of rejected features or proposed modifications.
+Request one frosted lower case, one glossy black support plate, one riser bar (4° provisionally; 7° is an alternative, not a second purchase), one knob,27 navy1u caps and one 2u Space with white translucent legends, plus required custom retention pieces. Magnets, rubber feet, screws and nuts are separate purchased items. Request thin-wall/small-feature review before accepting this design. Ask for quantities and unit/line prices, GST, delivery, lead time, material identity and a list of rejected features or proposed modifications.
 
 ### Completed instant estimates
 

@@ -30,7 +30,8 @@ Open `http://127.0.0.1:8766/keybaord/`. The generated `dist/` directory is the G
 - [Shared assembly dimensions](spec/keypad.json), [parts/sources](spec/parts.json), [resolved specification](spec/resolved.json).
 - [Blender fit model](design/fit-v1/keypad-fit-v1.blend), build/render scripts and native verification reports under `design/fit-v1/`.
 - [Parts and BOM evidence](docs/parts-and-bom.md): dated 18 October 2026. Known purchase subtotal ₹1,353.30; remaining quotes, printing, PCB, shipping and other costs are excluded. This is not the final project cost.
-- [Robu quote follow-up](docs/robu-quote-status.md): four SLA cost-study models total ₹6,433 including GST before delivery; the complete keyboard remains unquoted.
+- [Robu quote follow-up](docs/robu-quote-status.md): current lower-case/knob/one-4°-riser print estimate ₹4,498 including GST before delivery; 7° remains an alternative. The original four-model evidence is preserved.
+- [Full keyboard cost audit](docs/full-keyboard-cost-audit.md): required one-build quantities, missing quotes, electronics/manufacturing blockers and prototype cash-spend rules. The complete keyboard remains unquoted.
 - [Verification record](docs/visual-verification.md): what was actually checked and what remains unknown.
 - `scripts/web/` and `scripts/engineering/`: interactive homepage and unique-part drawing generators.
 - `.github/workflows/pages.yml`: build, checks and Pages deployment on main.
