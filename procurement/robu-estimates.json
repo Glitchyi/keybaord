@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-18",
+  "sourceURL": "https://robu.in/product/industrial-3d-printing/",
+  "quoteStatus": "Four completed Robu live calculator estimates; no order or supplier DFM approval",
+  "scope": "Four quote-only custom meshes at quantity one each; separate from frozen fit-v1 BOM subtotal. Shipping and custom finishing unquoted.",
+  "rows": [
+    {
+      "id": "riser-4deg",
+      "label": "4° magnetic riser",
+      "quantity": 1,
+      "material": "Black Resin / Grayish Black",
+      "process": "SLA",
+      "amountINR": 1087,
+      "gstStatus": "Included",
+      "shippingStatus": "Not quoted",
+      "finishLimitations": "Captive magnet interface and small retaining pieces not accepted for manufacture",
+      "evidenceURL": "https://robu.in/product/industrial-3d-printing/",
+      "file": "procurement/robu/stl/riser-4deg.stl",
+      "fileSHA256": "b26eb488f4a64af714067bfd32e4d1f73382d0703cb4afc46c33d45871b084f9",
+      "priceStatus": "live-calculator"
+    },
+    {
+      "id": "riser-7deg",
+      "label": "7° magnetic riser",
+      "quantity": 1,
+      "material": "Black Resin / Grayish Black",
+      "process": "SLA",
+      "amountINR": 1935,
+      "gstStatus": "Included",
+      "shippingStatus": "Not quoted",
+      "finishLimitations": "Captive magnet interface and small retaining pieces not accepted for manufacture",
+      "evidenceURL": "https://robu.in/product/industrial-3d-printing/",
+      "file": "procurement/robu/stl/riser-7deg.stl",
+      "fileSHA256": "4cea15c6b8c0d8d7869f5d793fb3d621c27c1c9135f9104cc414defb6240ef95",
+      "priceStatus": "live-calculator"
+    },
+    {
+      "id": "knob",
+      "label": "Encoder knob",
+      "quantity": 1,
+      "material": "Black Resin / Grayish Black",
+      "process": "SLA",
+      "amountINR": 252,
+      "gstStatus": "Included",
+      "shippingStatus": "Not quoted",
+      "finishLimitations": "Navy finish/white index unquoted; small details and D-shaft interface need review",
+      "evidenceURL": "https://robu.in/product/industrial-3d-printing/",
+      "file": "procurement/robu/stl/knob.stl",
+      "fileSHA256": "3263bacf0d45ca6ff80a2354ab564febe8f13920a58369f0052657a499f92e63",
+      "priceStatus": "live-calculator"
+    },
+    {
+      "id": "lower-case",
+      "label": "Frosted lower case",
+      "quantity": 1,
+      "material": "8001 Resin / Translucent",
+      "process": "SLA",
+      "amountINR": 3159,
+      "gstStatus": "Included",
+      "shippingStatus": "Not quoted",
+      "finishLimitations": "Translucent option selected; heavy frost and diffusion unvalidated. Thin USB skin and support details need redesign/review.",
+      "evidenceURL": "https://robu.in/product/industrial-3d-printing/",
+      "file": "procurement/robu/stl/lower-case.stl",
+      "fileSHA256": "5dadcc6f96d806b3768c014d54c411698139a1f777ef6a50f586ff9abe7994b3",
+      "priceStatus": "live-calculator"
+    },
+    {
+      "id": "diode-alternative",
+      "label": "28 Vishay diodes (packaging alternative)",
+      "quantity": 28,
+      "material": "Vishay 1N4148W-E3-18 / SOD-123",
+      "process": "Purchased component listing",
+      "amountINR": 224,
+      "gstStatus": "Included",
+      "shippingStatus": "Not quoted",
+      "finishLimitations": "Different reel suffix from selected -08; no substitution approved. ₹8 per part at 1–49; in stock when checked.",
+      "evidenceURL": "https://robu.in/product/1n4148w-e3-18-vishay-1n4148w-e3-18-small-signal-diode-single-100-v-150-ma-1-2-v-4-ns-2-a/",
+      "priceStatus": "live-listing"
+    }
+  ],
+  "notes": [
+    "No full keyboard total: keycaps/legends, plate, electronics, PCB, finishing, delivery and manufacturing changes are excluded.",
+    "Caps and small retained pieces do not meet current printing rules; a price is not manufacturing approval.",
+    "PCB estimate blocked by missing routed Gerbers; Robu form offers 1.6 mm rather than selected 1.5 mm.",
+    "BOM tool requires Robu login; no account or purchase created.",
+    "Four public model uploads were explicitly approved for non-binding estimates; no order or payment."
+  ],
+  "printEstimateSubtotalINR": 6433,
+  "printSubtotalScope": "One lower case, one knob, one 4° and one 7° riser body only; GST included; excludes shipping, cap/legend process, plate, electronics, retention pieces and manufacturing changes."
+}

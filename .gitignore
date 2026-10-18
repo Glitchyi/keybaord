@@ -8,3 +8,13 @@ spec/references/tmp/
 design/fit-v1/frames/
 design/fit-v1/*.blend1
 design/fit-v1/validation/
+
+# Rebuildable quotation exports; keep the four priced inputs reproducible in CI.
+procurement/robu/*.zip
+procurement/robu/*.log
+procurement/robu/__pycache__/
+procurement/robu/stl/*
+!procurement/robu/stl/riser-4deg.stl
+!procurement/robu/stl/riser-7deg.stl
+!procurement/robu/stl/knob.stl
+!procurement/robu/stl/lower-case.stl

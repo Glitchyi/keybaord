@@ -52,3 +52,7 @@ The extracted adapter socket rim center is1.669522 above its PCB component surfa
 Magnet pockets need keyed locating geometry to carry shear and a positive retaining closure to keep the magnets captive. Pocket diameter/depth, cover thickness, adhesive and fit allowance are custom nominal values. The default catalogue supplies no retention-force guarantee.
 
 LED brightness, diffuser material, white legends, strip spacing and USB power allocation remain untested. A render can show a lighting concept without validating optical efficiency, uniformity or power delivery. Automatic overlay identification remains conceptual.
+
+## Robu procurement follow-up — 18 October 2026
+
+[Robu quote results](robu-quote-status.md) records four user-approved model uploads and a separate component-listing check. The four SLA cost-study models total ₹6,433 including GST before delivery and unquoted finishes. This is a partial estimate, separate from the historical ₹1,353.30 component subtotal; it does not price the complete keyboard or approve its manufacturability. The frozen parts catalogue and geometry remain unchanged.

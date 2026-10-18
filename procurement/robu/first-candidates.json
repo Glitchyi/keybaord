@@ -1,0 +1,89 @@
+{
+  "scope": "Quote-only frozen geometry; no upload performed",
+  "parts": [
+    {
+      "id": "riser-4deg",
+      "file": "procurement/robu/stl/riser-4deg.stl",
+      "quantity": 1,
+      "units": "mm",
+      "dimensionsMm": [
+        118.30000305175781,
+        30.0,
+        7.536687850952148
+      ],
+      "volumeMm3": 19738.78335355137,
+      "triangles": 1800,
+      "badEdgeIncidences": 0,
+      "closedByExactSTLEdges": true,
+      "sha256": "b26eb488f4a64af714067bfd32e4d1f73382d0703cb4afc46c33d45871b084f9",
+      "printReady": false,
+      "dfm": "Budgetary candidate only: nominal key height 0.8mm; magnet closure, strength, adhesion and supplier material/process review required.",
+      "budgetaryInstantQuoteCandidate": true,
+      "finalAuditClosedManifold": true
+    },
+    {
+      "id": "riser-7deg",
+      "file": "procurement/robu/stl/riser-7deg.stl",
+      "quantity": 1,
+      "units": "mm",
+      "dimensionsMm": [
+        118.30000305175781,
+        30.0,
+        12.637569427490234
+      ],
+      "volumeMm3": 35178.30528715606,
+      "triangles": 1800,
+      "badEdgeIncidences": 0,
+      "closedByExactSTLEdges": true,
+      "sha256": "4cea15c6b8c0d8d7869f5d793fb3d621c27c1c9135f9104cc414defb6240ef95",
+      "printReady": false,
+      "dfm": "Budgetary candidate only: nominal key height 0.8mm; magnet closure, strength, adhesion and supplier material/process review required.",
+      "budgetaryInstantQuoteCandidate": true,
+      "finalAuditClosedManifold": true
+    },
+    {
+      "id": "knob",
+      "file": "procurement/robu/stl/knob.stl",
+      "quantity": 1,
+      "units": "mm",
+      "dimensionsMm": [
+        16.040002822875977,
+        16.03999900817871,
+        10.0
+      ],
+      "volumeMm3": 1788.2287557720447,
+      "triangles": 1546,
+      "badEdgeIncidences": 0,
+      "closedByExactSTLEdges": true,
+      "sha256": "3263bacf0d45ca6ff80a2354ab564febe8f13920a58369f0052657a499f92e63",
+      "printReady": false,
+      "dfm": "Cost study only: 0.24mm grip cylinders, ~0.02mm proudness; actual D-flat bore differs from planned parameter; attachment unresolved.",
+      "budgetaryInstantQuoteCandidate": false,
+      "finalAuditClosedManifold": true
+    },
+    {
+      "id": "lower-case",
+      "file": "procurement/robu/stl/lower-case.stl",
+      "quantity": 1,
+      "units": "mm",
+      "dimensionsMm": [
+        128.3000030517578,
+        109.25,
+        21.5
+      ],
+      "volumeMm3": 58068.74239444338,
+      "triangles": 6144,
+      "badEdgeIncidences": 0,
+      "closedByExactSTLEdges": true,
+      "sha256": "5dadcc6f96d806b3768c014d54c411698139a1f777ef6a50f586ff9abe7994b3",
+      "printReady": false,
+      "dfm": "Cost study only: 0.523mm USB wall and ~0.210mm nut-trap radial walls fail provider wall limits; process/optics/load unknown.",
+      "budgetaryInstantQuoteCandidate": false,
+      "finalAuditClosedManifold": true
+    }
+  ],
+  "sourceSpecHash": "f3b01f1ca1fa3146d8b8418fa5d1a24e8a6f81fbbec2552a7b0e1b603857a1a7",
+  "geometryHash": "825c3c4eab495d1b896d61a9102a60e4e80efe6e2b686f5e14f7f0e5f52cc3b4",
+  "builtMeshHash": "546886520d0ff51f6f55593911fa9d8add9793c6ddc106194c332756e581ba2d",
+  "noUploadPerformed": true
+}
