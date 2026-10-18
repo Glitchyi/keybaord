@@ -83,8 +83,7 @@
     "No full keyboard total: keycaps/legends, plate, electronics, PCB, finishing, delivery and manufacturing changes are excluded.",
     "Caps and small retained pieces do not meet current printing rules; a price is not manufacturing approval.",
     "PCB estimate blocked by missing routed Gerbers; Robu form offers 1.6 mm rather than selected 1.5 mm.",
-    "BOM tool requires Robu login; no account or purchase created.",
-    "Four public model uploads were explicitly approved for non-binding estimates; no order or payment."
+    "Exact electronic parts and delivered prices remain unquoted."
   ],
   "printEstimateSubtotalINR": 6433,
   "printSubtotalScope": "One lower case, one knob, one 4° and one 7° riser body only; GST included; excludes shipping, cap/legend process, plate, electronics, retention pieces and manufacturing changes."
