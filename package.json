@@ -1,0 +1,12 @@
+{
+  "name": "keybaord",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/build.mjs --light",
+    "audit": "node scripts/build.mjs --audit",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20.10" }
+}

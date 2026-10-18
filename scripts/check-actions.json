@@ -1,0 +1,19 @@
+[
+ ["eval", "if(document.querySelectorAll('[data-key]').length!==28)throw Error('key count'); keypadPreview.inspect('E'); keypadPreview.press('E',true); '28 keys present'"],
+ ["wait", 200],
+ ["eval", "if(keypadPreview.state.positions.E<2.4)throw Error('press motion'); keypadPreview.release(); 'press gesture passed'"],
+ ["key", "Enter", "[data-key='W']"],
+ ["wait", 150],
+ ["eval", "if(keypadPreview.state.held.length)throw Error('stuck key'); document.querySelector('#binding').value='F'; document.querySelector('#apply').click(); if(keypadPreview.state.bindings.Valorant.W!=='F')throw Error('binding'); const p=document.querySelector('#profile');p.value='Overwatch';p.dispatchEvent(new Event('change'));if(document.querySelector('#binding').value!=='W')throw Error('profile isolation'); document.querySelector('#binding').value='';document.querySelector('#apply').click();if(document.querySelector('#status').dataset.error!=='true')throw Error('validation feedback');document.querySelector('#reset').click();if(keypadPreview.state.bindings.Valorant.W!=='W')throw Error('reset');'keyboard, binding, profile isolation, validation and reset passed'"],
+ ["lines", "shots/lines-dark.png"],
+ ["shot", "shots/desktop.png", ".workspace"],
+ ["shot", "shots/close-dark.png", ".iso-stage", 4],
+ ["click", "#top"],
+ ["eval", "if(document.querySelector('.flat').hidden)throw Error('top view');'top view passed'"],
+ ["shot", "shots/top.png", ".drawing"],
+ ["click", "#iso"],
+ ["click", "#theme"],
+ ["lines", "shots/lines-light.png"],
+ ["shot", "shots/close-light.png", ".iso-stage", 4],
+ ["eval", "if(document.body.dataset.theme!=='light')throw Error('theme'); if(document.documentElement.scrollWidth>innerWidth)throw Error('horizontal overflow'); 'theme and overflow passed'"]
+]
